@@ -2,8 +2,8 @@
   "scriptVersion": 1,
   "id": "guiqi-zhongyi-entertainment-phone",
   "title": "归期与钟意：漂亮女孩不说秘密",
-  "description": "双小钧（归期）与陈嘉豪（钟意）的娱乐圈捡手机故事。包含闺蜜日常、微博、微信、追星、王者与隐藏的小秘密。",
-  "revision": 3,
+  "description": "沿用既定娱乐圈世界观：归期与钟意是最好的闺蜜，狼团与红团交织着家庭、婚姻、娱乐圈热搜和KPL/王者日常。玩家通过手机里的聊天、微博、视频、相册、备忘录和分支选择拼出真相。",
+  "revision": 4,
   "phone": {
     "owner": "双小钧",
     "date": "2026-06-28",
@@ -102,35 +102,77 @@
       "name": "陈嘉豪",
       "phone": "",
       "avatar": "",
-      "bio": "CN：钟意｜归期的闺蜜｜一诺唯粉"
+      "bio": "陈嘉豪｜CN：钟意｜归期的闺蜜｜谢长生的妻子｜一诺唯粉"
     },
     {
       "id": "fly",
-      "name": "李紫薇",
+      "name": "李紫薇（Fly）",
       "phone": "",
       "avatar": "",
-      "bio": "艺名 Fly｜狼团队长｜当红女艺人"
+      "bio": "狼团队长、当红女星｜归期的母亲｜蔡油漆的前妻"
     },
     {
       "id": "yinuo",
       "name": "一诺",
       "phone": "",
       "avatar": "",
-      "bio": "AG人气选手｜钟意的偶像"
+      "bio": "红团成员｜AG队长｜钟意的偶像"
     },
     {
       "id": "caiyouqi",
       "name": "蔡油漆",
       "phone": "",
       "avatar": "",
-      "bio": "狼团成员｜Fly的弟弟"
+      "bio": "狼团男成员｜归期的父亲｜与李紫薇离异"
     },
     {
       "id": "zhongletian",
       "name": "钟乐天",
       "phone": "",
       "avatar": "",
-      "bio": "狼团成员"
+      "bio": "狼团男成员"
+    },
+    {
+      "id": "cayouqi",
+      "name": "蔡油漆",
+      "phone": "",
+      "avatar": "",
+      "bio": "狼团男成员｜归期的父亲｜与李紫薇离异"
+    },
+    {
+      "id": "zhouyitao",
+      "name": "周怡桃",
+      "phone": "",
+      "avatar": "",
+      "bio": "蔡油漆现任女友"
+    },
+    {
+      "id": "gouhongxin",
+      "name": "苟红心",
+      "phone": "",
+      "avatar": "",
+      "bio": "李紫薇前男友"
+    },
+    {
+      "id": "xiechangsheng",
+      "name": "谢长生",
+      "phone": "",
+      "avatar": "",
+      "bio": "红团成员｜钟意的丈夫"
+    },
+    {
+      "id": "mengjiajun",
+      "name": "孟佳俊",
+      "phone": "",
+      "avatar": "",
+      "bio": "红团成员"
+    },
+    {
+      "id": "yangfan",
+      "name": "杨帆",
+      "phone": "",
+      "avatar": "",
+      "bio": "狼团女成员"
     }
   ],
   "chats": [
@@ -435,10 +477,241 @@
           "time": "00:12"
         }
       ]
+    },
+    {
+      "id": "wechat-family-guiqi",
+      "app": "wechat",
+      "title": "家里那点事（免打扰）",
+      "participants": [
+        "owner",
+        "caiyouqi",
+        "fly",
+        "zhouyitao"
+      ],
+      "messages": [
+        {
+          "id": "fam1",
+          "title": "",
+          "body": "你妈今晚有活动，不回家吃饭。",
+          "senderId": "caiyouqi",
+          "time": "17:32"
+        },
+        {
+          "id": "fam2",
+          "title": "",
+          "body": "你不用每次都替她解释。",
+          "senderId": "owner",
+          "time": "17:34"
+        },
+        {
+          "id": "fam3",
+          "title": "",
+          "body": "归期，别把大人的事都往自己身上揽。",
+          "senderId": "caiyouqi",
+          "time": "17:36"
+        },
+        {
+          "id": "fam4",
+          "title": "",
+          "body": "周阿姨又给你寄东西了，放门口。",
+          "senderId": "caiyouqi",
+          "time": "17:37"
+        },
+        {
+          "id": "fam5",
+          "title": "",
+          "body": "不用了，谢谢。",
+          "senderId": "owner",
+          "time": "17:39"
+        },
+        {
+          "id": "fam6",
+          "title": "",
+          "body": "小钧，有空来吃饭呀。",
+          "senderId": "zhouyitao",
+          "time": "17:42"
+        },
+        {
+          "id": "fam7",
+          "title": "",
+          "body": "我最近有点忙，下次吧。",
+          "senderId": "owner",
+          "time": "17:43"
+        }
+      ]
+    },
+    {
+      "id": "wechat-marriage",
+      "app": "wechat",
+      "title": "钟意｜家属备注：谢长生",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "xiechangsheng"
+      ],
+      "messages": [
+        {
+          "id": "mar1",
+          "title": "",
+          "body": "你今晚还回不回来？",
+          "senderId": "xiechangsheng",
+          "time": "19:12"
+        },
+        {
+          "id": "mar2",
+          "title": "",
+          "body": "和归期吃饭，晚点。",
+          "senderId": "zhongyi",
+          "time": "19:14"
+        },
+        {
+          "id": "mar3",
+          "title": "",
+          "body": "你们每次聚餐都能聊到半夜。",
+          "senderId": "xiechangsheng",
+          "time": "19:15"
+        },
+        {
+          "id": "mar4",
+          "title": "",
+          "body": "她是我闺蜜。你有意见？",
+          "senderId": "zhongyi",
+          "time": "19:15"
+        },
+        {
+          "id": "mar5",
+          "title": "",
+          "body": "没有，给你们留了门。",
+          "senderId": "xiechangsheng",
+          "time": "19:16"
+        },
+        {
+          "id": "mar6",
+          "title": "",
+          "body": "算你识相。",
+          "senderId": "zhongyi",
+          "time": "19:17"
+        }
+      ]
+    },
+    {
+      "id": "wechat-redgroup",
+      "app": "wechat",
+      "title": "红团工作群（5）",
+      "participants": [
+        "yinuo",
+        "xiechangsheng",
+        "mengjiajun",
+        "zhongyi",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "redg1",
+          "title": "",
+          "body": "今晚训练结束得早，谁还在附近？",
+          "senderId": "yinuo",
+          "time": "20:40"
+        },
+        {
+          "id": "redg2",
+          "title": "",
+          "body": "我在陪归期吃饭！",
+          "senderId": "zhongyi",
+          "time": "20:41"
+        },
+        {
+          "id": "redg3",
+          "title": "",
+          "body": "钟意老师又翘群聊。",
+          "senderId": "mengjiajun",
+          "time": "20:41"
+        },
+        {
+          "id": "redg4",
+          "title": "",
+          "body": "她今天有正当理由。",
+          "senderId": "xiechangsheng",
+          "time": "20:42"
+        },
+        {
+          "id": "redg5",
+          "title": "",
+          "body": "哟，家属来查岗了。",
+          "senderId": "owner",
+          "time": "20:42"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wolf-family",
+      "app": "wechat",
+      "title": "狼团内部群（别截图）",
+      "participants": [
+        "fly",
+        "caiyouqi",
+        "zhongletian",
+        "yangfan"
+      ],
+      "messages": [
+        {
+          "id": "wolf1",
+          "title": "",
+          "body": "明天采访别再提旧事。",
+          "senderId": "fly",
+          "time": "22:03"
+        },
+        {
+          "id": "wolf2",
+          "title": "",
+          "body": "知道了。",
+          "senderId": "caiyouqi",
+          "time": "22:04"
+        },
+        {
+          "id": "wolf3",
+          "title": "",
+          "body": "你俩每次一说旧事群里就安静。",
+          "senderId": "yangfan",
+          "time": "22:05"
+        },
+        {
+          "id": "wolf4",
+          "title": "",
+          "body": "因为有些事不适合拿出来做热搜。",
+          "senderId": "fly",
+          "time": "22:06"
+        },
+        {
+          "id": "wolf5",
+          "title": "",
+          "body": "先把明天舞台走位对完。",
+          "senderId": "zhongletian",
+          "time": "22:07"
+        }
+      ]
     }
   ],
   "content": {
     "weibo": [
+      {
+        "id": "wb-family-rumor",
+        "title": "热搜词条｜#Fly与狼团旧事#",
+        "body": "营销号：狼团队长Fly被问及家庭关系时避而不谈，疑似与某位成员关系生变？\n粉丝提醒：不要把艺人家事当连续剧，更不要编造所谓内幕。",
+        "sender": "文娱显微镜",
+        "time": "2026-06-28 00:48",
+        "kind": "post",
+        "likes": 23109,
+        "comments": [
+          "Fly粉丝后援会：拒绝造谣，关注作品。",
+          "路人：她只是没回答私人问题。",
+          "归期：有些问题不回答就是最好的回答。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "热"
+        }
+      },
       {
         "id": "wb-dinner",
         "title": "微博正文",
@@ -512,6 +785,38 @@
         ],
         "meta": {
           "topic": "一诺超话"
+        }
+      },
+      {
+        "id": "wb-yinuo-fan",
+        "title": "钟意的微博｜一诺超话签到",
+        "body": "今日份签到。恭喜比赛顺利！下一场继续加油，我和归期会准时看。",
+        "sender": "钟意",
+        "time": "2026-06-27 21:55",
+        "kind": "post",
+        "likes": 5120,
+        "comments": [
+          "归期：我只是陪你看。",
+          "钟意：你明明也看得很认真。"
+        ],
+        "meta": {
+          "topic": "一诺超话"
+        }
+      },
+      {
+        "id": "wb-fly-official",
+        "title": "Fly工作室｜行程提醒",
+        "body": "今晚活动结束，感谢大家的支持。请勿跟车、勿打扰私人行程。",
+        "sender": "Fly工作室",
+        "time": "2026-06-27 23:20",
+        "kind": "post",
+        "likes": 78200,
+        "comments": [
+          "姐姐辛苦了！",
+          "归期：早点休息。"
+        ],
+        "meta": {
+          "topic": "Fly工作室"
         }
       }
     ],
@@ -625,6 +930,24 @@
         "time": "2026-06-18 21:33",
         "kind": "image",
         "folder": "朋友"
+      },
+      {
+        "id": "photo-wolf",
+        "title": "狼团后台合照",
+        "body": "Fly、蔡油漆、钟乐天、杨帆的后台合照。相册备注：拍完这张大家都说不许发。",
+        "sender": "相册",
+        "time": "2026-06-26 23:10",
+        "kind": "image",
+        "folder": "狼团"
+      },
+      {
+        "id": "photo-red",
+        "title": "红团舞台返图",
+        "body": "一诺、谢长生、孟佳俊的舞台合影。",
+        "sender": "相册",
+        "time": "2026-06-25 21:00",
+        "kind": "image",
+        "folder": "红团"
       }
     ],
     "notes": [
@@ -641,6 +964,22 @@
         "body": "有时候觉得自己好像总是在热闹里装作没事。还好钟意一直都在。",
         "sender": "归期",
         "time": "2026-06-26 02:11"
+      },
+      {
+        "id": "note-hidden-family",
+        "title": "草稿｜没发出去",
+        "body": "他们总说一家人应该坐在一起，可我连该坐谁旁边都不知道。\n我不是不想要一个完整的家，只是不想每次见面都要假装开心。",
+        "sender": "归期",
+        "time": "2026-06-27 02:26",
+        "hidden": true
+      },
+      {
+        "id": "note-hidden-draft",
+        "title": "微博草稿箱",
+        "body": "有些热搜写得很热闹，但当事人连解释的力气都没有。\n算了，不发了。",
+        "sender": "归期",
+        "time": "2026-06-28 00:59",
+        "hidden": true
       }
     ],
     "calendar": [
@@ -693,13 +1032,245 @@
           "别把普通聚餐过度解读。",
           "支持姐姐好好生活。"
         ]
+      },
+      {
+        "id": "forum-gossip",
+        "title": "匿名帖｜狼团和红团到底关系怎么样？",
+        "body": "楼主：最近热搜好多，狼团红团是不是不合？\n1L：别把工作竞争脑补成私下不和。\n2L：Fly和一诺合作舞台明明很稳。\n3L：归期钟意又双排了，评论区比比赛还热闹。",
+        "sender": "匿名用户",
+        "time": "2026-06-28 01:11",
+        "likes": 1890,
+        "comments": [
+          "吃瓜要有边界。",
+          "王者双排才是重点！"
+        ]
+      },
+      {
+        "id": "forum-marriage",
+        "title": "匿名帖｜闺蜜和丈夫同时发消息先回谁？",
+        "body": "楼主：如果闺蜜正在崩溃，丈夫又在等你回家呢？\n热评：真正爱你的人不会逼你做选择，但会等你把话说清楚。",
+        "sender": "匿名用户",
+        "time": "2026-06-27 23:40",
+        "likes": 880,
+        "comments": [
+          "先沟通，不要冷处理。",
+          "归期：先回闺蜜，丈夫可以解释。"
+        ]
       }
     ]
   },
   "variables": {
     "dinner_post_seen": false,
-    "secret_note_found": false
+    "secret_note_found": false,
+    "reply_to_mom": false,
+    "protect_fly": false,
+    "call_zhongyi": false
   },
-  "events": [],
-  "tests": []
+  "events": [
+    {
+      "id": "story-start",
+      "label": "捡到手机：凌晨的未读通知",
+      "type": "start",
+      "event": "start",
+      "target": "",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "notification",
+          "key": "weibo",
+          "value": "微博热搜更新：#Fly与狼团旧事#"
+        }
+      ],
+      "next": [
+        "opening-choice"
+      ],
+      "once": true,
+      "x": 80,
+      "y": 80
+    },
+    {
+      "id": "opening-choice",
+      "label": "你先查看哪条线索？",
+      "type": "choice",
+      "event": "",
+      "target": "",
+      "conditions": [],
+      "actions": [],
+      "next": [
+        "choice-family",
+        "choice-hotsearch",
+        "choice-bestie"
+      ],
+      "once": true,
+      "x": 300,
+      "y": 80
+    },
+    {
+      "id": "choice-family",
+      "label": "先看归期的家庭聊天",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-family",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-hidden-family"
+        },
+        {
+          "type": "variable",
+          "key": "secret_note_found",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "family-history"
+        },
+        {
+          "type": "notification",
+          "key": "wechat",
+          "value": "你发现一条隐藏备忘录"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "家庭线索已发现"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 0
+    },
+    {
+      "id": "choice-hotsearch",
+      "label": "先看Fly相关热搜",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-hotsearch",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-hidden-draft"
+        },
+        {
+          "type": "variable",
+          "key": "protect_fly",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "fly-hotsearch"
+        },
+        {
+          "type": "notification",
+          "key": "weibo",
+          "value": "解锁一条未发布的微博草稿"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "Fly热搜线索已发现"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 100
+    },
+    {
+      "id": "choice-bestie",
+      "label": "先给钟意发消息",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-bestie",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "variable",
+          "key": "call_zhongyi",
+          "value": true
+        },
+        {
+          "type": "message",
+          "key": "wechat",
+          "value": "钟意：你醒着吗？我刚看到热搜，别一个人乱想。我马上打给你。"
+        },
+        {
+          "type": "call",
+          "key": "wechat",
+          "value": "钟意"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "闺蜜联络成功"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 200
+    }
+  ],
+  "tests": [
+    {
+      "name": "先查家庭线索",
+      "steps": [
+        {
+          "target": "",
+          "event": "start"
+        },
+        {
+          "target": "",
+          "choose": "choice-family"
+        },
+        {
+          "target": "note-hidden-family",
+          "event": "read"
+        }
+      ],
+      "ending": "家庭线索已发现",
+      "expectUnlocked": [
+        "note-hidden-family"
+      ]
+    },
+    {
+      "name": "先查Fly热搜",
+      "steps": [
+        {
+          "target": "",
+          "event": "start"
+        },
+        {
+          "target": "",
+          "choose": "choice-hotsearch"
+        },
+        {
+          "target": "note-hidden-draft",
+          "event": "read"
+        }
+      ],
+      "ending": "Fly热搜线索已发现",
+      "expectUnlocked": [
+        "note-hidden-draft"
+      ]
+    },
+    {
+      "name": "先联系钟意",
+      "steps": [
+        {
+          "target": "",
+          "event": "start"
+        },
+        {
+          "target": "",
+          "choose": "choice-bestie"
+        }
+      ],
+      "ending": "闺蜜联络成功",
+      "expectUnlocked": []
+    }
+  ]
 }

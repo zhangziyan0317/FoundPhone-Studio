@@ -1,16 +1,18 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "guiqi-zhongyi-entertainment-phone",
+  "title": "归期与钟意：漂亮女孩不说秘密",
+  "description": "双小钧（归期）与陈嘉豪（钟意）的娱乐圈捡手机故事。包含闺蜜日常、微博、微信、追星、王者与隐藏的小秘密。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "双小钧",
+    "date": "2026-06-28",
+    "time": "01:37",
+    "battery": 86,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "apple-wwdc26",
+    "passcode": "1226",
+    "theme": "light"
   },
   "installedApps": [
     "appstore",
@@ -89,611 +91,615 @@
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "owner",
+      "name": "双小钧",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "网名：我非生来伶仃｜CN：归期"
+    },
+    {
+      "id": "zhongyi",
+      "name": "陈嘉豪",
+      "phone": "",
+      "avatar": "",
+      "bio": "CN：钟意｜归期的闺蜜｜一诺唯粉"
+    },
+    {
+      "id": "fly",
+      "name": "李紫薇",
+      "phone": "",
+      "avatar": "",
+      "bio": "艺名 Fly｜狼团队长｜当红女艺人"
+    },
+    {
+      "id": "yinuo",
+      "name": "一诺",
+      "phone": "",
+      "avatar": "",
+      "bio": "AG人气选手｜钟意的偶像"
+    },
+    {
+      "id": "caiyouqi",
+      "name": "蔡油漆",
+      "phone": "",
+      "avatar": "",
+      "bio": "狼团成员｜Fly的弟弟"
+    },
+    {
+      "id": "zhongletian",
+      "name": "钟乐天",
+      "phone": "",
+      "avatar": "",
+      "bio": "狼团成员"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "wechat-besties",
       "app": "wechat",
-      "title": "测试会话",
+      "title": "归期宝宝🥀",
       "participants": [
         "owner",
-        "test-contact"
+        "zhongyi"
       ],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "w1",
+          "title": "",
+          "body": "你人呢？？餐厅都到了",
+          "senderId": "zhongyi",
+          "time": "18:02"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "w2",
+          "title": "",
+          "body": "在楼下补口红！等我三分钟",
+          "senderId": "owner",
+          "time": "18:03"
+        },
+        {
+          "id": "w3",
+          "title": "",
+          "body": "你上次也说三分钟，最后让我等了二十分钟。",
+          "senderId": "zhongyi",
+          "time": "18:03"
+        },
+        {
+          "id": "w4",
+          "title": "",
+          "body": "那是因为你值得等待（不是）",
+          "senderId": "owner",
+          "time": "18:04"
+        },
+        {
+          "id": "w5",
+          "title": "",
+          "body": "今天不许聊工作，不许聊热搜，先吃饭。",
+          "senderId": "zhongyi",
+          "time": "18:05"
+        },
+        {
+          "id": "w6",
+          "title": "",
+          "body": "可以聊一诺吗？",
+          "senderId": "zhongyi",
+          "time": "18:05"
+        },
+        {
+          "id": "w7",
+          "title": "",
+          "body": "……你不是说不聊热搜吗",
+          "senderId": "owner",
+          "time": "18:06"
+        },
+        {
+          "id": "w8",
+          "title": "",
+          "body": "一诺不是热搜，是我的人生信仰。",
+          "senderId": "zhongyi",
+          "time": "18:06"
+        },
+        {
+          "id": "w9",
+          "title": "",
+          "body": "行行行，今晚你坐我旁边，我负责拍照。",
+          "senderId": "owner",
+          "time": "18:07"
+        },
+        {
+          "id": "w10",
+          "title": "",
+          "body": "微博文案我都替你想好了：归意天下第一好。",
+          "senderId": "zhongyi",
+          "time": "18:07"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wolf",
+      "app": "wechat",
+      "title": "狼团今天也很吵",
+      "participants": [
+        "owner",
+        "fly",
+        "caiyouqi",
+        "zhongletian"
+      ],
+      "messages": [
+        {
+          "id": "wf1",
+          "title": "",
+          "body": "今晚聚餐？你们先点菜，我收工过去。",
+          "senderId": "fly",
+          "time": "18:16"
+        },
+        {
+          "id": "wf2",
+          "title": "",
+          "body": "队长又迟到，记账。",
+          "senderId": "caiyouqi",
+          "time": "18:17"
+        },
+        {
+          "id": "wf3",
+          "title": "",
+          "body": "蔡油漆你先把上次奶茶钱结了。",
+          "senderId": "zhongletian",
+          "time": "18:17"
+        },
+        {
+          "id": "wf4",
+          "title": "",
+          "body": "我点了四份甜品，谁也别跟我抢。",
+          "senderId": "owner",
+          "time": "18:19"
+        },
+        {
+          "id": "wf5",
+          "title": "",
+          "body": "你上次说只吃一口。",
+          "senderId": "fly",
+          "time": "18:19"
+        },
+        {
+          "id": "wf6",
+          "title": "",
+          "body": "我今天也只吃一口，每份一口。",
+          "senderId": "owner",
+          "time": "18:20"
+        },
+        {
+          "id": "wf7",
+          "title": "",
+          "body": "哈哈哈哈这逻辑很归期。",
+          "senderId": "caiyouqi",
+          "time": "18:20"
+        },
+        {
+          "id": "wf8",
+          "title": "",
+          "body": "到了给我发消息，外面有粉丝。",
+          "senderId": "fly",
+          "time": "18:21"
+        }
+      ]
+    },
+    {
+      "id": "wechat-yinuo",
+      "app": "wechat",
+      "title": "钟意的置顶（备注：一诺老师）",
+      "participants": [
+        "zhongyi",
+        "yinuo"
+      ],
+      "messages": [
+        {
+          "id": "yn1",
+          "title": "",
+          "body": "今天比赛辛苦啦！好好休息！",
+          "senderId": "zhongyi",
+          "time": "22:14"
+        },
+        {
+          "id": "yn2",
+          "title": "",
+          "body": "谢谢支持，早点休息。",
+          "senderId": "yinuo",
+          "time": "22:21"
+        },
+        {
+          "id": "yn3",
+          "title": "",
+          "body": "（截图保存第108次）",
+          "senderId": "zhongyi",
+          "time": "22:22"
+        }
+      ]
+    },
+    {
+      "id": "wechat-group",
+      "app": "wechat",
+      "title": "今晚不许塌房（6）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "fly",
+        "caiyouqi",
+        "zhongletian"
+      ],
+      "messages": [
+        {
+          "id": "g1",
+          "title": "",
+          "body": "谁把聚餐照片发群里了，我闭眼那张删掉。",
+          "senderId": "zhongletian",
+          "time": "23:02"
+        },
+        {
+          "id": "g2",
+          "title": "",
+          "body": "没删，已经设成群公告了。",
+          "senderId": "owner",
+          "time": "23:02"
+        },
+        {
+          "id": "g3",
+          "title": "",
+          "body": "归期你真的很闲。",
+          "senderId": "caiyouqi",
+          "time": "23:03"
+        },
+        {
+          "id": "g4",
+          "title": "",
+          "body": "谢谢夸奖，我把你丑照也存好了。",
+          "senderId": "owner",
+          "time": "23:03"
+        },
+        {
+          "id": "g5",
+          "title": "",
+          "body": "不要在群里互相伤害，明天还要一起上班。",
+          "senderId": "fly",
+          "time": "23:04"
+        },
+        {
+          "id": "g6",
+          "title": "",
+          "body": "收到队长！",
+          "senderId": "zhongyi",
+          "time": "23:04"
+        }
+      ]
+    },
+    {
+      "id": "kakao-old",
+      "app": "kakao",
+      "title": "旧聊天记录",
+      "participants": [
+        "owner",
+        "fly"
+      ],
+      "messages": [
+        {
+          "id": "k1",
+          "title": "",
+          "body": "你今天是不是又熬夜了？",
+          "senderId": "fly",
+          "time": "00:48"
+        },
+        {
+          "id": "k2",
+          "title": "",
+          "body": "没有，刚好睡不着。",
+          "senderId": "owner",
+          "time": "00:49"
+        },
+        {
+          "id": "k3",
+          "title": "",
+          "body": "早点休息。你明天还有安排。",
+          "senderId": "fly",
+          "time": "00:50"
+        },
+        {
+          "id": "k4",
+          "title": "",
+          "body": "知道啦，晚安。",
+          "senderId": "owner",
+          "time": "00:51"
+        }
+      ]
+    },
+    {
+      "id": "messages-mom",
+      "app": "messages",
+      "title": "家里",
+      "participants": [
+        "owner",
+        "zhongyi"
+      ],
+      "messages": [
+        {
+          "id": "s1",
+          "title": "",
+          "body": "到家记得说一声。",
+          "senderId": "zhongyi",
+          "time": "23:48"
+        },
+        {
+          "id": "s2",
+          "title": "",
+          "body": "到了，今天很开心。",
+          "senderId": "owner",
+          "time": "00:12"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "notes": [
-      {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "weibo": [
       {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
+        "id": "wb-dinner",
+        "title": "微博正文",
+        "body": "归意天下第一好（钟意老师要求版）\n今天和好朋友们吃饭！从下班聊到打烊，从最近的热搜聊到王者连跪。有人负责点菜，有人负责拍照，有人负责把我的甜品偷吃掉。\n反正和你们在一起的每一天都值得存档。下次还要聚！🥂📸\n#KPL归期超话# #归意天下第一好# #好朋友聚餐#",
+        "sender": "RW侠归期 👑 🎓 🌻 ◇ KPL归期超话",
+        "time": "2026-06-28 01:37",
+        "kind": "post",
+        "likes": 12886,
+        "comments": [
+          "钟意：文案是我写的，夸我。",
+          "归期：夸夸钟意老师，今天也爱你。",
+          "Fly：下次聚餐不许只点甜品。",
+          "蔡油漆：我只想知道谁拍照把我拍成这样。",
+          "路人甲：这桌人怎么像把娱乐圈和KPL包圆了？"
+        ],
+        "meta": {
+          "topic": "KPL归期超话",
+          "location": "四川",
+          "postType": "image",
+          "badge": "超话",
+          "imageCaption": "朋友聚餐多人合照"
+        }
+      },
       {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
+        "id": "wb-top",
+        "title": "置顶微博",
+        "body": "置顶🔝\n闺蜜：@钟意\n追星搭子：@Fly\n本人主打一个嘴硬、爱漂亮、爱买小裙子和香水。拒绝无效社交，欢迎来和我聊王者、漂亮衣服和好看的姐姐。",
+        "sender": "我非生来伶仃｜归期",
+        "time": "2026-06-20 12:00",
+        "kind": "post",
+        "likes": 96521,
+        "comments": [
+          "钟意：我怎么是闺蜜不是老婆？",
+          "归期：因为你还没给我买香水。",
+          "Fly：追星搭子？你倒是挺会给自己安排身份。"
+        ],
+        "meta": {
+          "pinned": "true",
+          "topic": "归期超话"
+        }
+      },
       {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "wb-hot",
+        "title": "热搜讨论｜狼团聚餐路透",
+        "body": "营销号：狼团成员深夜聚餐，Fly现身，疑似与好友共同庆生？\n评论区已经开始猜同行人员。",
+        "sender": "娱乐速报",
+        "time": "2026-06-28 00:56",
+        "kind": "post",
+        "likes": 5421,
+        "comments": [
+          "吃瓜不信瓜：这不就是朋友聚餐吗？",
+          "今天也要开心：别造谣，姐姐只是吃饭。",
+          "归期：吃饭也能上热搜，建议给我们免单。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "爆"
+        }
+      },
+      {
+        "id": "wb-zhongyi",
+        "title": "钟意的新微博",
+        "body": "今天也算圆梦了：和朋友吃饭的时候聊到一诺，归期居然没有嫌我烦。下次比赛继续冲！",
+        "sender": "钟意",
+        "time": "2026-06-27 23:59",
+        "kind": "post",
+        "likes": 2320,
+        "comments": [
+          "归期：我只是懒得打断你。",
+          "一诺今天营业了吗：懂你！"
+        ],
+        "meta": {
+          "topic": "一诺超话"
+        }
       }
     ],
     "bilibili": [
       {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "bili-1",
+        "title": "【王者荣耀】归期钟意双排实录：嘴上说稳了，开局就送",
+        "body": "归期和钟意的双排剪辑｜娱乐局｜全程互相甩锅｜最后一波配合居然赢了。",
+        "sender": "归期今天上分了吗",
+        "time": "2026-06-27 21:10",
+        "kind": "video",
+        "likes": 8934,
+        "comments": [
+          "钟意：剪掉我0-5那段！",
+          "归期：不剪，名场面。",
+          "弹幕：这俩人吵架像在说相声。"
+        ],
+        "meta": {
+          "duration": "08:26",
+          "category": "王者荣耀"
+        }
+      },
+      {
+        "id": "bili-2",
+        "title": "Fly高光时刻合集｜狼团队长今天也太帅了",
+        "body": "粉丝剪辑：Fly舞台直拍、采访片段与训练花絮。",
+        "sender": "紫薇今天营业了吗",
+        "time": "2026-06-25 18:30",
+        "kind": "video",
+        "likes": 128000,
+        "comments": [
+          "姐姐状态太好了！",
+          "归期：已三连。",
+          "钟意：你怎么又在看Fly。"
+        ],
+        "meta": {
+          "duration": "12:08",
+          "category": "娱乐"
+        }
       }
     ],
-    "alipay": [
+    "redbook": [
       {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "red-1",
+        "title": "今日份约会穿搭｜小裙子和香水",
+        "body": "和钟意出门吃饭的一天。裙子是新买的，香水是最近最喜欢的那支。朋友拍照技术进步了，夸她。",
+        "sender": "我非生来伶仃",
+        "time": "2026-06-27 19:20",
+        "kind": "post",
+        "likes": 5821,
+        "comments": [
+          "钟意：裙子链接发我。",
+          "归期：不给，怕你和我撞款。"
+        ],
+        "meta": {
+          "topic": "今日穿搭"
+        }
+      }
+    ],
+    "douyin": [
+      {
+        "id": "dy-1",
+        "title": "聚餐花絮：谁把最后一块蛋糕吃了？",
+        "body": "镜头记录：钟意伸手、归期护盘、Fly在旁边笑到模糊。",
+        "sender": "归期",
+        "time": "2026-06-28 00:22",
+        "kind": "video",
+        "likes": 18700,
+        "comments": [
+          "钟意：我没吃！",
+          "归期：监控拍得很清楚。"
+        ],
+        "meta": {
+          "duration": "00:19"
+        }
+      }
+    ],
+    "photos": [
+      {
+        "id": "photo-1",
+        "title": "今晚聚餐大合照",
+        "body": "归期、钟意和朋友们的聚餐合照。拍摄时间：2026-06-27 22:46。",
+        "sender": "相册",
+        "time": "2026-06-27 22:46",
+        "kind": "image",
+        "folder": "聚餐"
+      },
+      {
+        "id": "photo-2",
+        "title": "归期和钟意的闺蜜头像",
+        "body": "两个人一起用的双人头像。",
+        "sender": "相册",
+        "time": "2026-06-20 16:00",
+        "kind": "image",
+        "folder": "闺蜜"
+      },
+      {
+        "id": "photo-3",
+        "title": "Fly舞台返图",
+        "body": "归期收藏的Fly舞台照片。",
+        "sender": "相册",
+        "time": "2026-06-18 21:30",
+        "kind": "image",
+        "folder": "追星"
+      },
+      {
+        "id": "photo-4",
+        "title": "一诺比赛截图",
+        "body": "钟意发来的比赛截图，备注：不准删。",
+        "sender": "相册",
+        "time": "2026-06-18 21:33",
+        "kind": "image",
+        "folder": "朋友"
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-1",
+        "title": "聚餐清单",
+        "body": "订位：6人\n必点：烤肉、冰饮、甜品\n钟意：不吃香菜\n归期：不吃亏（划掉）\nFly：收工后到\n拍照记得开闪光灯。",
+        "sender": "归期",
+        "time": "2026-06-27 16:30"
+      },
+      {
+        "id": "note-2",
+        "title": "没发出去的话",
+        "body": "有时候觉得自己好像总是在热闹里装作没事。还好钟意一直都在。",
+        "sender": "归期",
+        "time": "2026-06-26 02:11"
+      }
+    ],
+    "calendar": [
+      {
+        "id": "cal-1",
+        "title": "朋友聚餐",
+        "body": "和钟意、Fly他们一起吃饭。",
+        "sender": "日历",
+        "time": "2026-06-27 20:00"
+      }
+    ],
+    "phone": [
+      {
+        "id": "call-1",
+        "title": "未接来电：Fly",
+        "body": "23:58｜未接来电。",
+        "sender": "电话",
+        "time": "2026-06-28 23:58",
+        "kind": "call"
       }
     ],
     "taobao": [
       {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "shop-1",
+        "title": "订单：新款连衣裙",
+        "body": "已付款｜待发货｜备注：聚餐穿。",
+        "sender": "淘宝",
+        "time": "2026-06-26 14:20",
+        "kind": "order"
       }
     ],
     "netease": [
       {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "music-1",
+        "title": "最近在听",
+        "body": "聚餐歌单：轻快流行、深夜emo、Fly舞台曲目。",
+        "sender": "网易云音乐",
+        "time": "2026-06-27 22:00"
       }
     ],
     "forum": [
       {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "forum-1",
+        "title": "匿名讨论｜朋友聚餐被拍到怎么办",
+        "body": "楼主：只是和朋友吃饭，怎么也能被营销号写成大新闻？\n回复：娱乐圈日常，别理营销号。",
+        "sender": "论坛",
+        "time": "2026-06-28 01:05",
+        "likes": 321,
+        "comments": [
+          "别把普通聚餐过度解读。",
+          "支持姐姐好好生活。"
+        ]
       }
     ]
   },
-  "variables": {},
+  "variables": {
+    "dinner_post_seen": false,
+    "secret_note_found": false
+  },
   "events": [],
   "tests": []
 }

@@ -1,9 +1,9 @@
 {
   "scriptVersion": 1,
   "id": "guiqi-zhongyi-entertainment-phone",
-  "title": "归期与钟意：漂亮女孩不说秘密",
-  "description": "沿用既定娱乐圈世界观：归期与钟意是最好的闺蜜，狼团与红团交织着家庭、婚姻、娱乐圈热搜和KPL/王者日常。玩家通过手机里的聊天、微博、视频、相册、备忘录和分支选择拼出真相。",
-  "revision": 6,
+  "title": "归期的手机：热搜之外",
+  "description": "娱乐圈背景的互动捡手机故事。归期是追星浓度很高、嘴硬又爱漂亮的女孩，钟意是她最亲近的闺蜜。狼团与红团成员的工作、微博热搜、粉丝讨论和朋友间的日常交织在一起；王者荣耀只是归期和钟意偶尔开黑的爱好。归期与匿名网友F有长期私聊，双方都不知道对方的真实身份；F误以为归期是男生。归期不知道F就是自己一直喜欢的当红女演员Fly，更不知道两人之间还有未揭开的亲属关系。",
+  "revision": 7,
   "phone": {
     "owner": "双小钧",
     "date": "2026-06-28",
@@ -21,23 +21,37 @@
       "name": "微信",
       "installed": true,
       "visible": true,
-      "dock": false,
+      "dock": true,
       "folder": "",
       "icon": ""
     },
     {
-      "id": "douyin",
-      "name": "抖音",
+      "id": "weibo",
+      "name": "微博",
       "installed": true,
       "visible": true,
       "dock": false,
       "folder": "",
       "icon": ""
     },
-    "phone",
-    "messages",
-    "contacts",
-    "photos",
+    {
+      "id": "photos",
+      "name": "相册",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
+    {
+      "id": "safari",
+      "name": "浏览器",
+      "installed": true,
+      "visible": true,
+      "dock": true,
+      "folder": "",
+      "icon": ""
+    },
     {
       "id": "camera",
       "name": "相机",
@@ -47,47 +61,23 @@
       "folder": "",
       "icon": ""
     },
-    "safari",
+    "phone",
+    "messages",
+    "contacts",
     "notes",
     "calendar",
-    "mail",
     "clock",
     "reminders",
     "files",
     "music",
-    "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
     "settings",
-    "qq",
-    "weibo",
     "redbook",
+    "douyin",
     "bilibili",
-    "alipay",
     "taobao",
+    "alipay",
     "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "forum"
   ],
   "contacts": [
     {
@@ -109,21 +99,21 @@
       "name": "彭芸菲（Fly）",
       "phone": "",
       "avatar": "",
-      "bio": "CN：Fly｜狼团队长、当红女星｜蔡油漆的姐姐｜归期喜欢的偶像"
+      "bio": "彭芸菲｜当红女演员、狼团队长｜归期长期关注的偶像"
     },
     {
       "id": "yinuo",
       "name": "一诺",
       "phone": "",
       "avatar": "",
-      "bio": "红团成员｜AG队长｜钟意的偶像"
+      "bio": "红团成员｜人气偶像｜钟意长期喜欢的艺人"
     },
     {
       "id": "caiyouqi",
       "name": "蔡油漆",
       "phone": "",
       "avatar": "",
-      "bio": "狼团男成员｜彭芸菲的弟弟｜归期的父亲"
+      "bio": "狼团男成员｜归期的父亲"
     },
     {
       "id": "zhongletian",
@@ -133,25 +123,18 @@
       "bio": "狼团男成员"
     },
     {
-      "id": "cayouqi",
-      "name": "蔡油漆",
-      "phone": "",
-      "avatar": "",
-      "bio": "狼团男成员｜归期的父亲｜与李紫薇离异"
-    },
-    {
       "id": "zhouyitao",
       "name": "周怡桃",
       "phone": "",
       "avatar": "",
-      "bio": "蔡油漆现任女友"
+      "bio": "蔡油漆的现任女友"
     },
     {
       "id": "gouhongxin",
       "name": "苟红心",
       "phone": "",
       "avatar": "",
-      "bio": "李紫薇前男友"
+      "bio": "李紫薇的现任伴侣"
     },
     {
       "id": "xiechangsheng",
@@ -173,6 +156,48 @@
       "phone": "",
       "avatar": "",
       "bio": "狼团女成员"
+    },
+    {
+      "id": "liweizi",
+      "name": "李紫薇",
+      "phone": "",
+      "avatar": "",
+      "bio": "归期的母亲｜与蔡油漆离异"
+    },
+    {
+      "id": "zhangheng",
+      "name": "张恒",
+      "phone": "",
+      "avatar": "",
+      "bio": "谢长生的朋友｜何伟嘉的丈夫"
+    },
+    {
+      "id": "heweijia",
+      "name": "何伟嘉",
+      "phone": "",
+      "avatar": "",
+      "bio": "张恒的妻子｜与苟红心相识"
+    },
+    {
+      "id": "online-f",
+      "name": "F",
+      "phone": "",
+      "avatar": "",
+      "bio": "归期的匿名私聊对象｜真实身份未知"
+    },
+    {
+      "id": "xiaoman",
+      "name": "小满",
+      "phone": "",
+      "avatar": "",
+      "bio": "归期的朋友｜追星搭子"
+    },
+    {
+      "id": "linke",
+      "name": "林可",
+      "phone": "",
+      "avatar": "",
+      "bio": "工作室联络人｜负责活动与行程提醒"
     }
   ],
   "chats": [
@@ -260,10 +285,9 @@
     {
       "id": "wechat-wolf",
       "app": "wechat",
-      "title": "狼团今天也很吵",
+      "title": "蔡油漆和钟乐天（工作群）",
       "participants": [
         "owner",
-        "fly",
         "caiyouqi",
         "zhongletian"
       ],
@@ -271,58 +295,66 @@
         {
           "id": "wf1",
           "title": "",
-          "body": "今晚聚餐？你们先点菜，我收工过去。",
-          "senderId": "fly",
-          "time": "18:16"
+          "body": "明天狼团有商务拍摄，我结束后再回消息。",
+          "senderId": "caiyouqi",
+          "time": "18:16",
+          "kind": "text"
         },
         {
           "id": "wf2",
           "title": "",
-          "body": "队长又迟到，记账。",
-          "senderId": "caiyouqi",
-          "time": "18:17"
+          "body": "你先把上次垫的奶茶钱转我。",
+          "senderId": "zhongletian",
+          "time": "18:17",
+          "kind": "text"
         },
         {
           "id": "wf3",
           "title": "",
-          "body": "蔡油漆你先把上次奶茶钱结了。",
-          "senderId": "zhongletian",
-          "time": "18:17"
+          "body": "你们两个能不能不要把群聊当记账本。",
+          "senderId": "owner",
+          "time": "18:18",
+          "kind": "text"
         },
         {
           "id": "wf4",
           "title": "",
-          "body": "我点了四份甜品，谁也别跟我抢。",
-          "senderId": "owner",
-          "time": "18:19"
+          "body": "你先管好自己，别又凌晨点甜品。",
+          "senderId": "caiyouqi",
+          "time": "18:19",
+          "kind": "text"
         },
         {
           "id": "wf5",
           "title": "",
-          "body": "你上次说只吃一口。",
-          "senderId": "fly",
-          "time": "18:19"
+          "body": "我点的是水果，四份水果。",
+          "senderId": "owner",
+          "time": "18:20",
+          "kind": "text"
         },
         {
           "id": "wf6",
           "title": "",
-          "body": "我今天也只吃一口，每份一口。",
-          "senderId": "owner",
-          "time": "18:20"
+          "body": "菜单上写着芝士蛋糕。",
+          "senderId": "zhongletian",
+          "time": "18:20",
+          "kind": "text"
         },
         {
           "id": "wf7",
           "title": "",
-          "body": "哈哈哈哈这逻辑很归期。",
-          "senderId": "caiyouqi",
-          "time": "18:20"
+          "body": "水果做的蛋糕也是水果。",
+          "senderId": "owner",
+          "time": "18:21",
+          "kind": "text"
         },
         {
           "id": "wf8",
           "title": "",
-          "body": "到了给我发消息，外面有粉丝。",
-          "senderId": "fly",
-          "time": "18:21"
+          "body": "……你开心就好。",
+          "senderId": "caiyouqi",
+          "time": "18:22",
+          "kind": "text"
         }
       ]
     },
@@ -416,40 +448,100 @@
     },
     {
       "id": "kakao-old",
-      "app": "kakao",
-      "title": "旧聊天记录",
+      "app": "wechat",
+      "title": "F（私聊｜勿截图）",
       "participants": [
         "owner",
-        "fly"
+        "online-f"
       ],
       "messages": [
         {
-          "id": "k1",
+          "id": "f01",
           "title": "",
-          "body": "你今天是不是又熬夜了？",
-          "senderId": "fly",
-          "time": "00:48"
+          "body": "兄弟，你上次发的那张舞台图是从哪场活动截的？",
+          "senderId": "online-f",
+          "time": "00:48",
+          "kind": "text"
         },
         {
-          "id": "k2",
+          "id": "f02",
           "title": "",
-          "body": "没有，刚好睡不着。",
+          "body": "不是兄弟！！算了你开心就好。是上周红毯的返图。",
           "senderId": "owner",
-          "time": "00:49"
+          "time": "00:49",
+          "kind": "text"
         },
         {
-          "id": "k3",
+          "id": "f03",
           "title": "",
-          "body": "早点休息。你明天还有安排。",
-          "senderId": "fly",
-          "time": "00:50"
+          "body": "哈哈哈哈行，兄弟。你追星追得挺认真。",
+          "senderId": "online-f",
+          "time": "00:50",
+          "kind": "text"
         },
         {
-          "id": "k4",
+          "id": "f04",
           "title": "",
-          "body": "知道啦，晚安。",
+          "body": "我担真的很好看，我可以夸她一辈子。",
           "senderId": "owner",
-          "time": "00:51"
+          "time": "00:51",
+          "kind": "text"
+        },
+        {
+          "id": "f05",
+          "title": "",
+          "body": "那你别熬夜蹲图。明天还上课/上班吧？",
+          "senderId": "online-f",
+          "time": "00:53",
+          "kind": "text"
+        },
+        {
+          "id": "f06",
+          "title": "",
+          "body": "你怎么跟我妈一样。",
+          "senderId": "owner",
+          "time": "00:54",
+          "kind": "text"
+        },
+        {
+          "id": "f07",
+          "title": "",
+          "body": "少贫。早点睡，最近活动多，网上乱七八糟的消息也多。",
+          "senderId": "online-f",
+          "time": "00:55",
+          "kind": "text"
+        },
+        {
+          "id": "f08",
+          "title": "",
+          "body": "你又知道活动多？你到底什么工作啊。",
+          "senderId": "owner",
+          "time": "00:56",
+          "kind": "text"
+        },
+        {
+          "id": "f09",
+          "title": "",
+          "body": "普通打工人，偶尔加班。别套我话。",
+          "senderId": "online-f",
+          "time": "00:57",
+          "kind": "text"
+        },
+        {
+          "id": "f10",
+          "title": "",
+          "body": "好吧F老师。晚安。",
+          "senderId": "owner",
+          "time": "00:58",
+          "kind": "text"
+        },
+        {
+          "id": "f11",
+          "title": "",
+          "body": "晚安。还有，别把我说过的话截图发出去。",
+          "senderId": "online-f",
+          "time": "00:59",
+          "kind": "text"
         }
       ]
     },
@@ -485,7 +577,6 @@
       "participants": [
         "owner",
         "caiyouqi",
-        "fly",
         "zhouyitao"
       ],
       "messages": [
@@ -494,49 +585,64 @@
           "title": "",
           "body": "你妈今晚有活动，不回家吃饭。",
           "senderId": "caiyouqi",
-          "time": "17:32"
+          "time": "17:32",
+          "kind": "text"
         },
         {
           "id": "fam2",
           "title": "",
           "body": "你不用每次都替她解释。",
           "senderId": "owner",
-          "time": "17:34"
+          "time": "17:34",
+          "kind": "text"
         },
         {
           "id": "fam3",
           "title": "",
           "body": "归期，别把大人的事都往自己身上揽。",
           "senderId": "caiyouqi",
-          "time": "17:36"
+          "time": "17:36",
+          "kind": "text"
         },
         {
           "id": "fam4",
           "title": "",
-          "body": "周阿姨又给你寄东西了，放门口。",
+          "body": "周阿姨给你寄的东西放门口了。",
           "senderId": "caiyouqi",
-          "time": "17:37"
+          "time": "17:37",
+          "kind": "text"
         },
         {
           "id": "fam5",
           "title": "",
-          "body": "不用了，谢谢。",
+          "body": "我知道了，谢谢。",
           "senderId": "owner",
-          "time": "17:39"
+          "time": "17:39",
+          "kind": "text"
         },
         {
           "id": "fam6",
           "title": "",
-          "body": "小钧，有空来吃饭呀。",
+          "body": "小钧，有空来吃饭呀，我给你留了你喜欢的那家甜品。",
           "senderId": "zhouyitao",
-          "time": "17:42"
+          "time": "17:42",
+          "kind": "text"
         },
         {
           "id": "fam7",
           "title": "",
-          "body": "我最近有点忙，下次吧。",
+          "body": "最近有点忙，下次吧。",
           "senderId": "owner",
-          "time": "17:43"
+          "time": "17:43",
+          "kind": "text"
+        },
+        {
+          "id": "fam8",
+          "title": "",
+          "body": "不想来就直说，不用勉强。",
+          "senderId": "caiyouqi",
+          "time": "17:45",
+          "kind": "text"
         }
       ]
     },
@@ -644,50 +750,781 @@
       ]
     },
     {
-      "id": "wechat-wolf-family",
+      "id": "wechat-mom-private",
       "app": "wechat",
-      "title": "狼团内部群（别截图）",
+      "title": "妈妈（不常置顶）",
       "participants": [
-        "fly",
-        "caiyouqi",
-        "zhongletian",
-        "yangfan"
+        "owner",
+        "liweizi"
       ],
       "messages": [
         {
-          "id": "wolf1",
+          "id": "mom1",
           "title": "",
-          "body": "明天采访别再提旧事。",
-          "senderId": "fly",
-          "time": "22:03"
+          "body": "最近降温了，记得带外套。",
+          "senderId": "liweizi",
+          "time": "09:12",
+          "kind": "text"
         },
         {
-          "id": "wolf2",
+          "id": "mom2",
           "title": "",
-          "body": "知道了。",
+          "body": "嗯。",
+          "senderId": "owner",
+          "time": "09:16",
+          "kind": "text"
+        },
+        {
+          "id": "mom3",
+          "title": "",
+          "body": "你爸爸说你最近没回家。",
+          "senderId": "liweizi",
+          "time": "09:18",
+          "kind": "text"
+        },
+        {
+          "id": "mom4",
+          "title": "",
+          "body": "我最近忙，不想每次回去都讨论你们的事。",
+          "senderId": "owner",
+          "time": "09:20",
+          "kind": "text"
+        },
+        {
+          "id": "mom5",
+          "title": "",
+          "body": "我知道了。等你想聊的时候再说。",
+          "senderId": "liweizi",
+          "time": "09:23",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-dad-private",
+      "app": "wechat",
+      "title": "蔡油漆（备注：别催）",
+      "participants": [
+        "owner",
+        "caiyouqi"
+      ],
+      "messages": [
+        {
+          "id": "dad1",
+          "title": "",
+          "body": "银行卡这个月生活费到账了。",
           "senderId": "caiyouqi",
-          "time": "22:04"
+          "time": "08:02",
+          "kind": "transfer"
         },
         {
-          "id": "wolf3",
+          "id": "dad2",
           "title": "",
-          "body": "你俩每次一说旧事群里就安静。",
+          "body": "收到了。",
+          "senderId": "owner",
+          "time": "08:11",
+          "kind": "text"
+        },
+        {
+          "id": "dad3",
+          "title": "",
+          "body": "别总买那些没用的东西。",
+          "senderId": "caiyouqi",
+          "time": "08:12",
+          "kind": "text"
+        },
+        {
+          "id": "dad4",
+          "title": "",
+          "body": "你上次买的限量球鞋也没见你穿。",
+          "senderId": "owner",
+          "time": "08:13",
+          "kind": "text"
+        },
+        {
+          "id": "dad5",
+          "title": "",
+          "body": "那不一样。",
+          "senderId": "caiyouqi",
+          "time": "08:14",
+          "kind": "text"
+        },
+        {
+          "id": "dad6",
+          "title": "",
+          "body": "哪里不一样，你说。",
+          "senderId": "owner",
+          "time": "08:14",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-stepmom",
+      "app": "wechat",
+      "title": "周阿姨",
+      "participants": [
+        "owner",
+        "zhouyitao"
+      ],
+      "messages": [
+        {
+          "id": "step1",
+          "title": "",
+          "body": "小钧，快递我帮你放物业了。",
+          "senderId": "zhouyitao",
+          "time": "12:30",
+          "kind": "text"
+        },
+        {
+          "id": "step2",
+          "title": "",
+          "body": "谢谢周阿姨，麻烦你了。",
+          "senderId": "owner",
+          "time": "12:32",
+          "kind": "text"
+        },
+        {
+          "id": "step3",
+          "title": "",
+          "body": "不麻烦。你爸爸嘴笨，有什么不舒服可以跟我说。",
+          "senderId": "zhouyitao",
+          "time": "12:34",
+          "kind": "text"
+        },
+        {
+          "id": "step4",
+          "title": "",
+          "body": "我知道的，最近就是有点累。",
+          "senderId": "owner",
+          "time": "12:36",
+          "kind": "text"
+        },
+        {
+          "id": "step5",
+          "title": "",
+          "body": "那就先照顾好自己，别为了让所有人满意一直硬撑。",
+          "senderId": "zhouyitao",
+          "time": "12:38",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-gou-he",
+      "app": "wechat",
+      "title": "红心、何伟嘉（临时群）",
+      "participants": [
+        "owner",
+        "gouhongxin",
+        "heweijia"
+      ],
+      "messages": [
+        {
+          "id": "gh1",
+          "title": "",
+          "body": "红心说你最近在找那家造型工作室？",
+          "senderId": "heweijia",
+          "time": "15:10",
+          "kind": "text"
+        },
+        {
+          "id": "gh2",
+          "title": "",
+          "body": "对，想约个妆发。",
+          "senderId": "owner",
+          "time": "15:12",
+          "kind": "text"
+        },
+        {
+          "id": "gh3",
+          "title": "",
+          "body": "我把地址发群里了，朋友开的，记得提前预约。",
+          "senderId": "gouhongxin",
+          "time": "15:13",
+          "kind": "text"
+        },
+        {
+          "id": "gh4",
+          "title": "",
+          "body": "谢谢。你们怎么比我还熟我的行程。",
+          "senderId": "owner",
+          "time": "15:14",
+          "kind": "text"
+        },
+        {
+          "id": "gh5",
+          "title": "",
+          "body": "因为你每次都临时抱佛脚。",
+          "senderId": "heweijia",
+          "time": "15:15",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-zhangheng",
+      "app": "wechat",
+      "title": "张恒（别把群聊当客服）",
+      "participants": [
+        "owner",
+        "zhangheng"
+      ],
+      "messages": [
+        {
+          "id": "zh1",
+          "title": "",
+          "body": "长生让我问你们周末还聚不聚。",
+          "senderId": "zhangheng",
+          "time": "16:02",
+          "kind": "text"
+        },
+        {
+          "id": "zh2",
+          "title": "",
+          "body": "问钟意，她最近行程比我还满。",
+          "senderId": "owner",
+          "time": "16:03",
+          "kind": "text"
+        },
+        {
+          "id": "zh3",
+          "title": "",
+          "body": "她说她要去看一诺活动。",
+          "senderId": "zhangheng",
+          "time": "16:04",
+          "kind": "text"
+        },
+        {
+          "id": "zh4",
+          "title": "",
+          "body": "那就是聚，地点选她能赶到的地方。",
+          "senderId": "owner",
+          "time": "16:05",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-heweijia",
+      "app": "wechat",
+      "title": "何伟嘉",
+      "participants": [
+        "owner",
+        "heweijia"
+      ],
+      "messages": [
+        {
+          "id": "hw1",
+          "title": "",
+          "body": "我看到你发的裙子了，链接给我。",
+          "senderId": "heweijia",
+          "time": "20:18",
+          "kind": "text"
+        },
+        {
+          "id": "hw2",
+          "title": "",
+          "body": "你不是说最近不买了吗？",
+          "senderId": "owner",
+          "time": "20:19",
+          "kind": "text"
+        },
+        {
+          "id": "hw3",
+          "title": "",
+          "body": "我说的是不买包，裙子不算。",
+          "senderId": "heweijia",
+          "time": "20:20",
+          "kind": "text"
+        },
+        {
+          "id": "hw4",
+          "title": "",
+          "body": "女人的购物逻辑我懂。",
+          "senderId": "owner",
+          "time": "20:21",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-zhongyi-daily",
+      "app": "wechat",
+      "title": "钟意｜实时播报",
+      "participants": [
+        "owner",
+        "zhongyi"
+      ],
+      "messages": [
+        {
+          "id": "zd1",
+          "title": "",
+          "body": "我刚刚路过商场，看到一诺的新海报了。",
+          "senderId": "zhongyi",
+          "time": "11:02",
+          "kind": "text"
+        },
+        {
+          "id": "zd2",
+          "title": "",
+          "body": "你先冷静，别在商场门口尖叫。",
+          "senderId": "owner",
+          "time": "11:03",
+          "kind": "text"
+        },
+        {
+          "id": "zd3",
+          "title": "",
+          "body": "我没有尖叫，我只是音量比较有感情。",
+          "senderId": "zhongyi",
+          "time": "11:04",
+          "kind": "text"
+        },
+        {
+          "id": "zd4",
+          "title": "",
+          "body": "你上次把保安吓得以为有人求婚。",
+          "senderId": "owner",
+          "time": "11:05",
+          "kind": "text"
+        },
+        {
+          "id": "zd5",
+          "title": "",
+          "body": "那是因为海报真的太帅了。",
+          "senderId": "zhongyi",
+          "time": "11:06",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-fanclub",
+      "app": "wechat",
+      "title": "漂亮姐姐观察小组（3）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "xiaoman"
+      ],
+      "messages": [
+        {
+          "id": "fan1",
+          "title": "",
+          "body": "Fly今天红毯图出了，救命。",
+          "senderId": "xiaoman",
+          "time": "21:10",
+          "kind": "text"
+        },
+        {
+          "id": "fan2",
+          "title": "",
+          "body": "我已经保存九张了，谁也别拦我。",
+          "senderId": "owner",
+          "time": "21:11",
+          "kind": "text"
+        },
+        {
+          "id": "fan3",
+          "title": "",
+          "body": "你俩先把图发群里，我要看高清。",
+          "senderId": "zhongyi",
+          "time": "21:12",
+          "kind": "text"
+        },
+        {
+          "id": "fan4",
+          "title": "",
+          "body": "归期，你不是说要早睡吗？",
+          "senderId": "xiaoman",
+          "time": "21:13",
+          "kind": "text"
+        },
+        {
+          "id": "fan5",
+          "title": "",
+          "body": "追星女孩没有早睡这个选项。",
+          "senderId": "owner",
+          "time": "21:14",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-king-duo",
+      "app": "wechat",
+      "title": "今晚上分不许吵架（3）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "xiaoman"
+      ],
+      "messages": [
+        {
+          "id": "kg1",
+          "title": "",
+          "body": "十点开吗？我今天手感很好。",
+          "senderId": "zhongyi",
+          "time": "19:40",
+          "kind": "text"
+        },
+        {
+          "id": "kg2",
+          "title": "",
+          "body": "你昨天也这么说，然后0/7。",
+          "senderId": "owner",
+          "time": "19:41",
+          "kind": "text"
+        },
+        {
+          "id": "kg3",
+          "title": "",
+          "body": "我负责补位，你们负责别吵。",
+          "senderId": "xiaoman",
+          "time": "19:42",
+          "kind": "text"
+        },
+        {
+          "id": "kg4",
+          "title": "",
+          "body": "这把我拿本命。",
+          "senderId": "zhongyi",
+          "time": "19:43",
+          "kind": "text"
+        },
+        {
+          "id": "kg5",
+          "title": "",
+          "body": "行，输了不许怪网卡。",
+          "senderId": "owner",
+          "time": "19:44",
+          "kind": "text"
+        },
+        {
+          "id": "kg6",
+          "title": "",
+          "body": "我已经开房间了，快进。",
+          "senderId": "zhongyi",
+          "time": "19:45",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-entertainment-friends",
+      "app": "wechat",
+      "title": "下班吃饭群（5）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "xiaoman",
+        "linke",
+        "mengjiajun"
+      ],
+      "messages": [
+        {
+          "id": "ef1",
+          "title": "",
+          "body": "今晚活动结束后附近有家新店，想去的报数。",
+          "senderId": "linke",
+          "time": "17:06",
+          "kind": "text"
+        },
+        {
+          "id": "ef2",
+          "title": "",
+          "body": "我去，但我要先回家换鞋。",
+          "senderId": "owner",
+          "time": "17:07",
+          "kind": "text"
+        },
+        {
+          "id": "ef3",
+          "title": "",
+          "body": "她换鞋至少四十分钟。",
+          "senderId": "zhongyi",
+          "time": "17:08",
+          "kind": "text"
+        },
+        {
+          "id": "ef4",
+          "title": "",
+          "body": "漂亮是需要时间成本的。",
+          "senderId": "owner",
+          "time": "17:09",
+          "kind": "text"
+        },
+        {
+          "id": "ef5",
+          "title": "",
+          "body": "那我先点菜，给你留位置。",
+          "senderId": "mengjiajun",
+          "time": "17:10",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-studio-schedule",
+      "app": "wechat",
+      "title": "行程提醒（林可）",
+      "participants": [
+        "owner",
+        "linke"
+      ],
+      "messages": [
+        {
+          "id": "sc1",
+          "title": "",
+          "body": "明天下午三点妆发，五点半出发。",
+          "senderId": "linke",
+          "time": "14:02",
+          "kind": "text"
+        },
+        {
+          "id": "sc2",
+          "title": "",
+          "body": "收到。有没有可能把妆发提前半小时？",
+          "senderId": "owner",
+          "time": "14:03",
+          "kind": "text"
+        },
+        {
+          "id": "sc3",
+          "title": "",
+          "body": "我帮你问，另外记得带备用耳饰。",
+          "senderId": "linke",
+          "time": "14:04",
+          "kind": "text"
+        },
+        {
+          "id": "sc4",
+          "title": "",
+          "body": "救命，我上次是不是把耳饰落在车上了。",
+          "senderId": "owner",
+          "time": "14:05",
+          "kind": "text"
+        },
+        {
+          "id": "sc5",
+          "title": "",
+          "body": "是的，而且你还说它自己长腿跑了。",
+          "senderId": "linke",
+          "time": "14:06",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wolf-work",
+      "app": "wechat",
+      "title": "狼团工作联络（4）",
+      "participants": [
+        "caiyouqi",
+        "zhongletian",
+        "yangfan",
+        "linke"
+      ],
+      "messages": [
+        {
+          "id": "ww1",
+          "title": "",
+          "body": "明天拍摄服装都确认了吗？",
           "senderId": "yangfan",
-          "time": "22:05"
+          "time": "18:01",
+          "kind": "text"
         },
         {
-          "id": "wolf4",
+          "id": "ww2",
           "title": "",
-          "body": "因为有些事不适合拿出来做热搜。",
-          "senderId": "fly",
-          "time": "22:06"
+          "body": "确认了，黑色造型为主，备用两套。",
+          "senderId": "linke",
+          "time": "18:03",
+          "kind": "text"
         },
         {
-          "id": "wolf5",
+          "id": "ww3",
           "title": "",
-          "body": "先把明天舞台走位对完。",
+          "body": "我只问一句，能不能别再给我紧身裤。",
+          "senderId": "caiyouqi",
+          "time": "18:04",
+          "kind": "text"
+        },
+        {
+          "id": "ww4",
+          "title": "",
+          "body": "不能。",
           "senderId": "zhongletian",
-          "time": "22:07"
+          "time": "18:05",
+          "kind": "text"
+        },
+        {
+          "id": "ww5",
+          "title": "",
+          "body": "哈哈哈哈服从造型组安排。",
+          "senderId": "yangfan",
+          "time": "18:06",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-red-group",
+      "app": "wechat",
+      "title": "红团活动通知（5）",
+      "participants": [
+        "yinuo",
+        "xiechangsheng",
+        "mengjiajun",
+        "zhongyi",
+        "linke"
+      ],
+      "messages": [
+        {
+          "id": "rg1",
+          "title": "",
+          "body": "下周品牌活动流程更新，集合时间提前。",
+          "senderId": "linke",
+          "time": "10:20",
+          "kind": "text"
+        },
+        {
+          "id": "rg2",
+          "title": "",
+          "body": "收到，我会提前到。",
+          "senderId": "yinuo",
+          "time": "10:21",
+          "kind": "text"
+        },
+        {
+          "id": "rg3",
+          "title": "",
+          "body": "我只是来帮忙确认流程的，不是来追星的。",
+          "senderId": "zhongyi",
+          "time": "10:22",
+          "kind": "text"
+        },
+        {
+          "id": "rg4",
+          "title": "",
+          "body": "钟意老师，你的头像是他。",
+          "senderId": "mengjiajun",
+          "time": "10:23",
+          "kind": "text"
+        },
+        {
+          "id": "rg5",
+          "title": "",
+          "body": "工作和生活要分开（努力装作镇定）。",
+          "senderId": "zhongyi",
+          "time": "10:24",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-birthday",
+      "app": "wechat",
+      "title": "钟意生日计划（4）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "xiaoman",
+        "heweijia"
+      ],
+      "messages": [
+        {
+          "id": "bd1",
+          "title": "",
+          "body": "今年蛋糕我订，谁也别跟我抢。",
+          "senderId": "owner",
+          "time": "13:10",
+          "kind": "text"
+        },
+        {
+          "id": "bd2",
+          "title": "",
+          "body": "我要双层的。",
+          "senderId": "zhongyi",
+          "time": "13:11",
+          "kind": "text"
+        },
+        {
+          "id": "bd3",
+          "title": "",
+          "body": "她去年也说双层，最后只吃了草莓。",
+          "senderId": "heweijia",
+          "time": "13:12",
+          "kind": "text"
+        },
+        {
+          "id": "bd4",
+          "title": "",
+          "body": "那今年订草莓塔吧，省钱。",
+          "senderId": "xiaoman",
+          "time": "13:13",
+          "kind": "text"
+        },
+        {
+          "id": "bd5",
+          "title": "",
+          "body": "你们是不是不爱我了。",
+          "senderId": "zhongyi",
+          "time": "13:14",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-night-snack",
+      "app": "wechat",
+      "title": "凌晨一点还醒着（3）",
+      "participants": [
+        "owner",
+        "zhongyi",
+        "online-f"
+      ],
+      "messages": [
+        {
+          "id": "ns1",
+          "title": "",
+          "body": "你睡了吗？我饿了。",
+          "senderId": "zhongyi",
+          "time": "01:02",
+          "kind": "text"
+        },
+        {
+          "id": "ns2",
+          "title": "",
+          "body": "你不是刚吃完宵夜？",
+          "senderId": "owner",
+          "time": "01:03",
+          "kind": "text"
+        },
+        {
+          "id": "ns3",
+          "title": "",
+          "body": "那是昨天的宵夜，今天还没吃。",
+          "senderId": "zhongyi",
+          "time": "01:04",
+          "kind": "text"
+        },
+        {
+          "id": "ns4",
+          "title": "",
+          "body": "你们两个先吃点东西，别只喝冰美式。",
+          "senderId": "online-f",
+          "time": "01:05",
+          "kind": "text"
+        },
+        {
+          "id": "ns5",
+          "title": "",
+          "body": "F，你怎么又出现了。",
+          "senderId": "owner",
+          "time": "01:06",
+          "kind": "text"
         }
       ]
     }
@@ -715,8 +1552,8 @@
       {
         "id": "wb-dinner",
         "title": "微博正文",
-        "body": "归意天下第一好（钟意老师要求版）\n今天和好朋友们吃饭！从下班聊到打烊，从最近的热搜聊到王者连跪。有人负责点菜，有人负责拍照，有人负责把我的甜品偷吃掉。\n反正和你们在一起的每一天都值得存档。下次还要聚！🥂📸\n#KPL归期超话# #归意天下第一好# #好朋友聚餐#",
-        "sender": "RW侠归期 👑 🎓 🌻 ◇ KPL归期超话",
+        "body": "归意天下第一好（钟意老师要求版）\n今天和好朋友们吃饭！从下班聊到打烊，从最近的热搜聊到王者连跪。有人负责点菜，有人负责拍照，有人负责把我的甜品偷吃掉。\n反正和你们在一起的每一天都值得存档。下次还要聚！🥂📸\n#归期超话# #归意天下第一好# #好朋友聚餐#",
+        "sender": "RW侠归期 👑 🎓 🌻 ◇ 归期超话",
         "time": "2026-06-28 01:37",
         "kind": "post",
         "likes": 12886,
@@ -725,10 +1562,10 @@
           "归期：夸夸钟意老师，今天也爱你。",
           "Fly：下次聚餐不许只点甜品。",
           "蔡油漆：我只想知道谁拍照把我拍成这样。",
-          "路人甲：这桌人怎么像把娱乐圈和KPL包圆了？"
+          "路人甲：这桌人怎么像把娱乐圈和王者荣耀包圆了？"
         ],
         "meta": {
-          "topic": "KPL归期超话",
+          "topic": "归期超话",
           "location": "四川",
           "postType": "image",
           "badge": "超话",
@@ -818,6 +1655,79 @@
         "meta": {
           "topic": "Fly工作室"
         }
+      },
+      {
+        "id": "wb-fly-redcarpet",
+        "title": "热搜｜#Fly红毯状态#",
+        "sender": "娱乐现场",
+        "time": "2026-06-28 00:16",
+        "kind": "post",
+        "body": "Fly今晚红毯造型释出，黑色礼服与短发造型引发讨论。粉丝：请把镜头多给姐姐一点。路人：她的状态真的很稳。",
+        "likes": 68421,
+        "comments": [
+          "Fly全球后援会：漂亮得很有攻击性。",
+          "路人：不认识，但这张图我存了。",
+          "黑粉：又营销？",
+          "粉丝：作品和舞台说话，别吵。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "热"
+        }
+      },
+      {
+        "id": "wb-wolf-announcement",
+        "title": "狼团官博｜合体舞台官宣",
+        "sender": "狼团官方账号",
+        "time": "2026-06-27 18:30",
+        "kind": "post",
+        "body": "狼团特别舞台将于下周公开，成员将带来全新编排。更多信息请关注官方账号。",
+        "likes": 52318,
+        "comments": [
+          "老粉终于等到了。",
+          "别再拿成员私生活编故事。",
+          "想看完整舞台，不想看营销号剪辑。"
+        ],
+        "meta": {
+          "topic": "狼团",
+          "tag": "新"
+        }
+      },
+      {
+        "id": "wb-yinuo-topic",
+        "title": "一诺超话｜今日签到",
+        "sender": "一诺超话主持人",
+        "time": "2026-06-27 22:02",
+        "kind": "post",
+        "body": "今天也要支持一诺的新作品！钟意准时签到，并在评论区留下了三条彩虹屁。",
+        "likes": 31987,
+        "comments": [
+          "钟意：我只是正常表达欣赏。",
+          "归期：你把他海报当手机壁纸还嘴硬。",
+          "路人：你们闺蜜好好笑。"
+        ],
+        "meta": {
+          "topic": "一诺超话"
+        }
+      },
+      {
+        "id": "wb-rumor-debunk",
+        "title": "热搜讨论｜#狼团红团不和#",
+        "sender": "吃瓜不信瓜",
+        "time": "2026-06-28 00:42",
+        "kind": "post",
+        "body": "营销号拼接了两段不同活动的采访，暗示狼团与红团关系紧张。评论区已有粉丝贴出完整视频澄清。",
+        "likes": 18802,
+        "comments": [
+          "完整视频看了吗？",
+          "别把剪辑当证据。",
+          "两团合作舞台明明很好看。",
+          "造谣号什么时候道歉？"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "沸"
+        }
       }
     ],
     "bilibili": [
@@ -855,6 +1765,58 @@
         "meta": {
           "duration": "12:08",
           "category": "娱乐"
+        }
+      },
+      {
+        "id": "bili-3",
+        "title": "【王者荣耀】归期×钟意双排：嘴硬闺蜜互坑全记录",
+        "sender": "归期今天睡了吗",
+        "kind": "video",
+        "body": "两个人下班后开黑，前十分钟互相甩锅，最后一波配合翻盘。纯游戏娱乐剪辑。",
+        "time": "2026-06-27",
+        "meta": {
+          "duration": "15:42",
+          "category": "王者荣耀",
+          "views": "28.6万"
+        }
+      },
+      {
+        "id": "bili-4",
+        "title": "【王者荣耀】闺蜜开黑语音：我说了别追！",
+        "sender": "小满的录像带",
+        "kind": "video",
+        "body": "归期和钟意的开黑语音剪辑，包含选英雄、临时换位和结算页面。",
+        "time": "2026-06-26",
+        "meta": {
+          "duration": "09:18",
+          "category": "王者荣耀",
+          "views": "12.4万"
+        }
+      },
+      {
+        "id": "bili-5",
+        "title": "Fly舞台直拍合集｜狼团队长的镜头表现力",
+        "sender": "芸菲观察站",
+        "kind": "video",
+        "body": "粉丝剪辑：红毯、舞台、采访和综艺片段。评论区提醒理性追星，不要传播私人行程。",
+        "time": "2026-06-25",
+        "meta": {
+          "duration": "18:06",
+          "category": "娱乐",
+          "views": "91.2万"
+        }
+      },
+      {
+        "id": "bili-6",
+        "title": "一诺新剧路透与采访片段整理",
+        "sender": "一诺放映室",
+        "kind": "video",
+        "body": "公开活动现场与官方采访片段，钟意在弹幕里连续发了十几个爱心。",
+        "time": "2026-06-24",
+        "meta": {
+          "duration": "11:33",
+          "category": "娱乐",
+          "views": "46.8万"
         }
       }
     ],
@@ -948,6 +1910,20 @@
         "time": "2026-06-25 21:00",
         "kind": "image",
         "folder": "红团"
+      },
+      {
+        "id": "photo-7",
+        "title": "收藏｜Fly红毯九宫格",
+        "sender": "相册",
+        "kind": "image",
+        "body": "归期收藏的公开活动返图。原始用户照片素材尚未写入仓库，待补充对应图片。"
+      },
+      {
+        "id": "photo-8",
+        "title": "收藏｜归期和钟意的双人头像",
+        "sender": "相册",
+        "kind": "image",
+        "body": "两人共用的闺蜜头像记录。原始用户照片素材尚未写入仓库，待补充对应图片。"
       }
     ],
     "notes": [
@@ -980,6 +1956,26 @@
         "sender": "归期",
         "time": "2026-06-28 00:59",
         "hidden": true
+      },
+      {
+        "id": "note-online-f",
+        "title": "隐藏备忘录｜F的聊天备份",
+        "sender": "归期",
+        "body": "旧聊天备份里只有几段零散语音转文字：\n\nF：你别总把所有人的事都扛在自己身上。\nF：我不方便说太多，最近工作确实忙。\n归期：你到底在哪个城市？\nF：先别问。等哪天不忙了，也许会告诉你。\n\n备注：这份备份没有姓名、照片或联系方式，暂时无法确认F是谁。",
+        "hidden": true,
+        "password": "1226"
+      },
+      {
+        "id": "note-3",
+        "title": "归期的追星清单",
+        "sender": "归期",
+        "body": "1. Fly新舞台直拍存档\n2. 不要和营销号吵架，保存完整视频再说\n3. 钟意的一诺活动票提醒\n4. 王者荣耀和钟意双排，输了不许甩锅\n5. 买了新裙子记得拍照"
+      },
+      {
+        "id": "note-4",
+        "title": "今天不想当懂事的小孩",
+        "sender": "归期",
+        "body": "今天又被问为什么不回家。其实不是不想回，是不知道回去之后要面对什么。先把今天过完，明天再说。"
       }
     ],
     "calendar": [
@@ -1009,6 +2005,22 @@
         "sender": "淘宝",
         "time": "2026-06-26 14:20",
         "kind": "order"
+      },
+      {
+        "id": "shop-2",
+        "title": "订单：香水小样礼盒",
+        "sender": "淘宝",
+        "kind": "order",
+        "body": "已付款｜待发货｜备注：归期说是给自己买的，实际准备分一半给钟意。",
+        "time": "2026-06-27"
+      },
+      {
+        "id": "shop-3",
+        "title": "购物车：拍摄用耳饰",
+        "sender": "淘宝",
+        "kind": "order",
+        "body": "加入购物车｜还没付款｜归期备注：先问钟意哪个好看。",
+        "time": "2026-06-27"
       }
     ],
     "netease": [
@@ -1064,7 +2076,8 @@
     "secret_note_found": false,
     "reply_to_mom": false,
     "protect_fly": false,
-    "call_zhongyi": false
+    "call_zhongyi": false,
+    "online_f_clue_found": false
   },
   "events": [
     {
@@ -1099,7 +2112,8 @@
       "next": [
         "choice-family",
         "choice-hotsearch",
-        "choice-bestie"
+        "choice-bestie",
+        "choice-private-chat"
       ],
       "once": true,
       "x": 300,
@@ -1212,6 +2226,43 @@
       "once": true,
       "x": 520,
       "y": 200
+    },
+    {
+      "id": "choice-private-chat",
+      "label": "翻找F的旧私聊备份",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-private-chat",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-online-f"
+        },
+        {
+          "type": "variable",
+          "key": "online_f_clue_found",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "anonymous-f"
+        },
+        {
+          "type": "notification",
+          "key": "notes",
+          "value": "发现一份需要密码查看的旧私聊备份"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "匿名私聊线索已解锁"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 300
     }
   ],
   "tests": [
@@ -1271,6 +2322,28 @@
       ],
       "ending": "闺蜜联络成功",
       "expectUnlocked": []
+    },
+    {
+      "name": "翻找F的旧私聊备份",
+      "steps": [
+        {
+          "target": "",
+          "event": "start"
+        },
+        {
+          "target": "",
+          "choose": "choice-private-chat"
+        },
+        {
+          "target": "note-online-f",
+          "event": "read",
+          "password": "1226"
+        }
+      ],
+      "ending": "匿名私聊线索已解锁",
+      "expectUnlocked": [
+        "note-online-f"
+      ]
     }
   ]
 }

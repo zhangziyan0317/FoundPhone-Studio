@@ -3,7 +3,7 @@
   "id": "guiqi-zhongyi-entertainment-phone",
   "title": "归期的手机：热搜之外",
   "description": "娱乐圈背景的互动捡手机故事。归期是追星浓度很高、嘴硬又爱漂亮的女孩，钟意是她最亲近的闺蜜。狼团与红团成员的工作、微博热搜、粉丝讨论和朋友间的日常交织在一起；王者荣耀只是归期和钟意偶尔开黑的爱好。归期与匿名网友F有长期私聊，双方都不知道对方的真实身份；F误以为归期是男生。归期不知道F就是自己一直喜欢的当红女演员Fly，更不知道两人之间还有未揭开的亲属关系。",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "双小钧",
     "date": "2026-06-28",
@@ -2149,7 +2149,8 @@
       "actions": [
         {
           "type": "unlock",
-          "key": "note-hidden-family"
+          "key": "note-hidden-family",
+          "value": true
         },
         {
           "type": "variable",
@@ -2158,7 +2159,8 @@
         },
         {
           "type": "clue",
-          "key": "family-history"
+          "key": "family-history",
+          "value": true
         },
         {
           "type": "notification",
@@ -2186,7 +2188,8 @@
       "actions": [
         {
           "type": "unlock",
-          "key": "note-hidden-draft"
+          "key": "note-hidden-draft",
+          "value": true
         },
         {
           "type": "variable",
@@ -2195,7 +2198,8 @@
         },
         {
           "type": "clue",
-          "key": "fly-hotsearch"
+          "key": "fly-hotsearch",
+          "value": true
         },
         {
           "type": "notification",
@@ -2262,7 +2266,8 @@
       "actions": [
         {
           "type": "unlock",
-          "key": "note-online-f"
+          "key": "note-online-f",
+          "value": true
         },
         {
           "type": "variable",
@@ -2271,7 +2276,8 @@
         },
         {
           "type": "clue",
-          "key": "anonymous-f"
+          "key": "anonymous-f",
+          "value": true
         },
         {
           "type": "notification",
@@ -2314,7 +2320,8 @@
         },
         {
           "type": "clue",
-          "key": "f-keeps-distance"
+          "key": "f-keeps-distance",
+          "value": true
         },
         {
           "type": "ending",
@@ -2337,11 +2344,13 @@
       "actions": [
         {
           "type": "unlock",
-          "key": "note-f-trace"
+          "key": "note-f-trace",
+          "value": true
         },
         {
           "type": "clue",
-          "key": "f-work-schedule"
+          "key": "f-work-schedule",
+          "value": true
         },
         {
           "type": "ending",
@@ -2364,11 +2373,13 @@
       "actions": [
         {
           "type": "unlock",
-          "key": "wb-draft-fan"
+          "key": "wb-draft-fan",
+          "value": true
         },
         {
           "type": "clue",
-          "key": "fly-draft"
+          "key": "fly-draft",
+          "value": true
         },
         {
           "type": "ending",
@@ -2391,7 +2402,8 @@
       "actions": [
         {
           "type": "clue",
-          "key": "full-interview"
+          "key": "full-interview",
+          "value": true
         },
         {
           "type": "notification",

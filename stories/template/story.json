@@ -3,7 +3,7 @@
   "id": "guiqi-zhongyi-entertainment-phone",
   "title": "归期的手机：热搜之外",
   "description": "娱乐圈背景的互动捡手机故事。归期是追星浓度很高、嘴硬又爱漂亮的女孩，钟意是她最亲近的闺蜜。狼团与红团成员的工作、微博热搜、粉丝讨论和朋友间的日常交织在一起；王者荣耀只是归期和钟意偶尔开黑的爱好。归期与匿名网友F有长期私聊，双方都不知道对方的真实身份；F误以为归期是男生。归期不知道F就是自己一直喜欢的当红女演员Fly，更不知道两人之间还有未揭开的亲属关系。",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "双小钧",
     "date": "2026-06-28",
@@ -279,6 +279,54 @@
           "body": "微博文案我都替你想好了：归意天下第一好。",
           "senderId": "zhongyi",
           "time": "18:07"
+        },
+        {
+          "id": "w11",
+          "title": "",
+          "body": "我刚刷到Fly那个采访热搜，评论区又开始带节奏了。",
+          "senderId": "zhongyi",
+          "time": "18:09",
+          "kind": "text"
+        },
+        {
+          "id": "w12",
+          "title": "",
+          "body": "先别转，等完整版。B站有官方视频。",
+          "senderId": "owner",
+          "time": "18:10",
+          "kind": "text"
+        },
+        {
+          "id": "w13",
+          "title": "",
+          "body": "你是不是已经收藏了？",
+          "senderId": "zhongyi",
+          "time": "18:10",
+          "kind": "text"
+        },
+        {
+          "id": "w14",
+          "title": "",
+          "body": "收藏了，还做了时间轴。",
+          "senderId": "owner",
+          "time": "18:11",
+          "kind": "text"
+        },
+        {
+          "id": "w15",
+          "title": "",
+          "body": "你给Fly存档的速度比回我消息快。",
+          "senderId": "zhongyi",
+          "time": "18:11",
+          "kind": "text"
+        },
+        {
+          "id": "w16",
+          "title": "",
+          "body": "这两件事不冲突。",
+          "senderId": "owner",
+          "time": "18:12",
+          "kind": "text"
         }
       ]
     },
@@ -541,6 +589,46 @@
           "body": "晚安。还有，别把我说过的话截图发出去。",
           "senderId": "online-f",
           "time": "00:59",
+          "kind": "text"
+        },
+        {
+          "id": "f12",
+          "title": "",
+          "body": "兄弟，你还没睡？",
+          "senderId": "online-f",
+          "time": "01:02",
+          "kind": "text"
+        },
+        {
+          "id": "f13",
+          "title": "",
+          "body": "在整理今天的截图。你怎么也还醒着？",
+          "senderId": "owner",
+          "time": "01:03",
+          "kind": "text"
+        },
+        {
+          "id": "f14",
+          "title": "",
+          "body": "刚收工。带地点的照片别往外发，公开活动的图留着就好。",
+          "senderId": "online-f",
+          "time": "01:04",
+          "kind": "text"
+        },
+        {
+          "id": "f15",
+          "title": "",
+          "body": "你怎么比工作室还敏感。",
+          "senderId": "owner",
+          "time": "01:05",
+          "kind": "text"
+        },
+        {
+          "id": "f16",
+          "title": "",
+          "body": "习惯了。别多想，早点睡。",
+          "senderId": "online-f",
+          "time": "01:06",
           "kind": "text"
         }
       ]
@@ -1262,6 +1350,30 @@
           "senderId": "mengjiajun",
           "time": "17:10",
           "kind": "text"
+        },
+        {
+          "id": "ef6",
+          "title": "",
+          "body": "我把今天的公开采访链接发群里了，别点那些二次剪辑。",
+          "senderId": "linke",
+          "time": "17:12",
+          "kind": "text"
+        },
+        {
+          "id": "ef7",
+          "title": "",
+          "body": "收到，我先存官方版本。",
+          "senderId": "owner",
+          "time": "17:13",
+          "kind": "text"
+        },
+        {
+          "id": "ef8",
+          "title": "",
+          "body": "吃饭的时候不许工作，链接可以明天再看。",
+          "senderId": "zhongyi",
+          "time": "17:14",
+          "kind": "text"
         }
       ]
     },
@@ -1312,6 +1424,30 @@
           "body": "是的，而且你还说它自己长腿跑了。",
           "senderId": "linke",
           "time": "14:06",
+          "kind": "text"
+        },
+        {
+          "id": "sc6",
+          "title": "",
+          "body": "另外，后台花絮要等官方发布后再转。",
+          "senderId": "linke",
+          "time": "14:08",
+          "kind": "text"
+        },
+        {
+          "id": "sc7",
+          "title": "",
+          "body": "知道了，我只存公开链接。",
+          "senderId": "owner",
+          "time": "14:09",
+          "kind": "text"
+        },
+        {
+          "id": "sc8",
+          "title": "",
+          "body": "今天凌晨有个陌生号码打进来，先别回拨。",
+          "senderId": "linke",
+          "time": "14:10",
           "kind": "text"
         }
       ]
@@ -1524,6 +1660,30 @@
           "body": "F，你怎么又出现了。",
           "senderId": "owner",
           "time": "01:06",
+          "kind": "text"
+        },
+        {
+          "id": "ns6",
+          "title": "",
+          "body": "你们还在聊？我看到热搜又变了。",
+          "senderId": "zhongyi",
+          "time": "01:08",
+          "kind": "text"
+        },
+        {
+          "id": "ns7",
+          "title": "",
+          "body": "别刷了，完整版已经存好，明天再看。",
+          "senderId": "owner",
+          "time": "01:09",
+          "kind": "text"
+        },
+        {
+          "id": "ns8",
+          "title": "",
+          "body": "兄弟，听她的，先睡。",
+          "senderId": "online-f",
+          "time": "01:10",
           "kind": "text"
         }
       ]
@@ -1739,6 +1899,94 @@
         "likes": 0,
         "comments": [],
         "time": "2026-06-28 00:44"
+      },
+      {
+        "id": "wb-hot-fly-studio",
+        "title": "热搜词条｜#Fly工作室回应跟拍#",
+        "sender": "娱乐速报",
+        "time": "2026-06-28 01:16",
+        "kind": "post",
+        "body": "Fly工作室回应：27日晚活动结束后的公开红毯照片可以正常讨论，请勿传播车辆、酒店及非公开行程信息。艺人和工作人员都需要正常下班的空间。",
+        "likes": 43821,
+        "comments": [
+          "Fly工作室：感谢理解，关注作品与公开活动。",
+          "归期：看公开舞台就好，别去打扰她。",
+          "路人：这条提醒应该多转。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "热"
+        }
+      },
+      {
+        "id": "wb-hot-wolf-red",
+        "title": "热搜词条｜#狼团红团合作舞台#",
+        "sender": "文娱榜单",
+        "time": "2026-06-28 01:08",
+        "kind": "post",
+        "body": "下周合作舞台官宣后，两个团的粉丝开始整理公开物料。评论区提醒：工作舞台可以期待，没必要把合作剪成对立。",
+        "likes": 29760,
+        "comments": [
+          "想看完整舞台，不想看拉踩。",
+          "Fly和一诺同台我先蹲一个。",
+          "钟意：已设提醒，谢谢。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "新"
+        }
+      },
+      {
+        "id": "wb-hot-interview-cut",
+        "title": "热搜词条｜#Fly采访被截取#",
+        "sender": "娱乐现场",
+        "time": "2026-06-28 00:42",
+        "kind": "post",
+        "body": "有账号只截取了Fly采访中的一句话，引发误读。公开完整版里，主持人随后追问的是新作品安排，并非网传的私人关系话题。建议先看完整采访再讨论。",
+        "likes": 56203,
+        "comments": [
+          "完整视频已经有人补上了。",
+          "断章取义真的没必要。",
+          "归期：我把完整版收藏了，别只看十秒切片。"
+        ],
+        "meta": {
+          "topic": "娱乐热搜",
+          "tag": "沸"
+        }
+      },
+      {
+        "id": "wb-guiqi-archive",
+        "title": "归期的微博｜今晚先存档",
+        "sender": "我非生来伶仃｜归期",
+        "time": "2026-06-28 01:21",
+        "kind": "post",
+        "body": "今天的照片先存档，没来得及说的话也先放一放。公开活动看公开物料，朋友聚餐就留给朋友。明天醒来再处理那些乱七八糟的热搜。",
+        "likes": 11028,
+        "comments": [
+          "钟意：这条终于像个正常人发的微博了。",
+          "小满：先睡觉！",
+          "归期：你们先做到不熬夜再管我。"
+        ],
+        "meta": {
+          "topic": "归期超话"
+        }
+      },
+      {
+        "id": "wb-zhongyi-repost",
+        "title": "钟意转发｜一诺新作品预告",
+        "sender": "钟意",
+        "time": "2026-06-27 22:26",
+        "kind": "post",
+        "body": "新作品预告看了三遍。不是我夸张，是镜头真的很会拍。下次活动我一定要抢到前排（理智追星版）。",
+        "likes": 6044,
+        "comments": [
+          "归期：理智追星版=提前三小时到场。",
+          "钟意：你不要拆穿我。",
+          "一诺超话主持人：欢迎来打卡。"
+        ],
+        "meta": {
+          "topic": "一诺超话"
+        }
       }
     ],
     "bilibili": [
@@ -1828,6 +2076,84 @@
           "duration": "11:33",
           "category": "娱乐",
           "views": "46.8万"
+        }
+      },
+      {
+        "id": "bili-7",
+        "title": "【王者荣耀】归期和钟意的下班双排：输赢先放一边",
+        "sender": "归期今天上分了吗",
+        "time": "2026-06-27 23:18",
+        "kind": "video",
+        "folder": "历史",
+        "body": "两个人下班后随手开一局，选英雄时互相嫌弃，团战时又默契地补位。纯娱乐局，没有职业训练或比赛内容。",
+        "likes": 12680,
+        "comments": [
+          "钟意：我那波明明能走！",
+          "归期：你回头救我了，所以我们一起倒了。",
+          "弹幕：闺蜜开黑比综艺还好看。"
+        ],
+        "meta": {
+          "duration": "10:14",
+          "category": "王者荣耀",
+          "views": "36.2万"
+        }
+      },
+      {
+        "id": "bili-8",
+        "title": "Fly完整采访｜被截掉的后半句",
+        "sender": "狼团公开物料整理",
+        "time": "2026-06-27 23:52",
+        "kind": "video",
+        "folder": "动态",
+        "body": "公开活动完整采访整理。前半段谈到红毯造型，后半段回答新作品与团队合作安排；网传短视频没有保留主持人的完整提问。",
+        "likes": 93420,
+        "comments": [
+          "感谢补全时间轴。",
+          "归期：看完了，果然不是营销号说的那个意思。",
+          "请继续只搬运公开物料。"
+        ],
+        "meta": {
+          "duration": "06:48",
+          "category": "娱乐",
+          "views": "108.6万"
+        }
+      },
+      {
+        "id": "bili-9",
+        "title": "狼团收工后十分钟｜公开后台花絮",
+        "sender": "狼团官方账号",
+        "time": "2026-06-26 21:40",
+        "kind": "video",
+        "body": "官方发布的后台花絮：成员互相检查耳返、确认第二天通告，最后一起向镜头挥手。没有收录非公开行程。",
+        "likes": 71400,
+        "comments": [
+          "大家辛苦了。",
+          "Fly最后还在提醒大家带外套。",
+          "归期：这段可以循环播放。"
+        ],
+        "meta": {
+          "duration": "04:32",
+          "category": "娱乐",
+          "views": "82.1万"
+        }
+      },
+      {
+        "id": "bili-10",
+        "title": "一诺新剧路演｜观众提问与主创回应",
+        "sender": "一诺放映室",
+        "time": "2026-06-24 19:30",
+        "kind": "video",
+        "body": "公开路演片段，包含新剧介绍、角色准备过程和观众提问。钟意在收藏夹里标了三个时间点。",
+        "likes": 49800,
+        "comments": [
+          "钟意：1分32秒、4分08秒、7分51秒都要看。",
+          "归期：你连时间轴都做了？",
+          "钟意：这叫认真。"
+        ],
+        "meta": {
+          "duration": "09:02",
+          "category": "娱乐",
+          "views": "53.7万"
         }
       }
     ],
@@ -1935,6 +2261,43 @@
         "sender": "相册",
         "kind": "image",
         "body": "两人共用的闺蜜头像记录。原始用户照片素材尚未写入仓库，待补充对应图片。"
+      },
+      {
+        "id": "photo-9",
+        "title": "最近项目｜两杯冰美式和一块蛋糕",
+        "sender": "相册",
+        "time": "2026-06-27 22:52",
+        "kind": "image",
+        "folder": "聚餐",
+        "body": "【图片占位】桌面照片的文字记录：两杯冰美式、一块没吃完的蛋糕和钟意的手机壳。待补充用户提供的原图。"
+      },
+      {
+        "id": "photo-10",
+        "title": "收藏｜Fly完整采访时间轴",
+        "sender": "相册",
+        "time": "2026-06-28 00:43",
+        "kind": "image",
+        "folder": "追星",
+        "body": "【图片占位】公开采访截图的存档说明，标记完整视频的时间轴。未写入任何艺人肖像文件，待补充有权使用的图片。"
+      },
+      {
+        "id": "photo-11",
+        "title": "收藏｜归期和钟意的双人头像备份",
+        "sender": "相册",
+        "time": "2026-06-20 16:08",
+        "kind": "image",
+        "folder": "闺蜜",
+        "body": "【图片占位】双人头像备份记录。当前只有文字说明，没有伪造头像或人物照片；待补充用户提供的原图。"
+      },
+      {
+        "id": "photo-hidden-metadata",
+        "title": "未归档截图｜活动提醒的一角",
+        "sender": "相册",
+        "time": "2026-06-28 00:17",
+        "kind": "image",
+        "folder": "线索",
+        "hidden": true,
+        "body": "【图片占位／隐藏线索】截图只看得见一行“公开采访结束后再确认”，下方时间为00:17。其余内容模糊，无法确认是谁保存的。待补充原图。"
       }
     ],
     "notes": [
@@ -1995,6 +2358,54 @@
         "body": "聊天备份里没有头像，也没有真实姓名。\n\n只有三条零碎信息：\n1. 对方常在深夜回复。\n2. 对方说最近工作安排很满。\n3. 对方提醒归期不要公开自己的行程。\n\n归期备注：这人到底是做什么的？",
         "hidden": true,
         "password": "1226"
+      },
+      {
+        "id": "note-5",
+        "title": "明天的行程提醒",
+        "sender": "归期",
+        "time": "2026-06-27 22:58",
+        "kind": "note",
+        "folder": "行程",
+        "body": "09:30 起床\n11:00 把采访完整版发给钟意\n15:00 妆发确认\n出门前检查耳饰和充电宝\n不要在公开平台发实时位置。"
+      },
+      {
+        "id": "note-6",
+        "title": "热搜核对清单",
+        "sender": "归期",
+        "time": "2026-06-28 00:45",
+        "kind": "note",
+        "folder": "追星",
+        "body": "□ 找到完整采访\n□ 对照主持人的原问题\n□ 不转发只有十秒的剪辑\n□ 不和营销号对骂\n□ 只保存公开活动物料"
+      },
+      {
+        "id": "note-7",
+        "title": "没发送的回复",
+        "sender": "归期",
+        "time": "2026-06-28 00:56",
+        "kind": "note",
+        "folder": "草稿",
+        "body": "你每次都像是提前知道我会遇到什么。算了，可能只是我想多了。等你愿意说的时候再说吧。"
+      },
+      {
+        "id": "note-late-night",
+        "title": "隐藏备忘录｜凌晨时间线",
+        "sender": "归期",
+        "time": "2026-06-28 00:19",
+        "kind": "note",
+        "folder": "线索",
+        "hidden": true,
+        "password": "1226",
+        "body": "00:17 相册里出现一张未归档截图。\n00:17 浏览器打开过一条活动通告缓存页。\n00:18 未知号码呼入，响铃约6秒。\n\n这三件事发生得太近了，但没有任何一条能证明它们来自同一个人。"
+      },
+      {
+        "id": "note-call-detail",
+        "title": "隐藏备忘录｜来电备注",
+        "sender": "归期",
+        "time": "2026-06-28 00:22",
+        "kind": "note",
+        "folder": "线索",
+        "hidden": true,
+        "body": "未知号码没有备注，也没有语音留言。只记得之前有人说过：不要随便回拨陌生号码。先把记录留着，别急着下结论。"
       }
     ],
     "calendar": [
@@ -2014,6 +2425,55 @@
         "sender": "电话",
         "time": "2026-06-28 23:58",
         "kind": "call"
+      },
+      {
+        "id": "call-2",
+        "title": "未接来电：未知号码",
+        "sender": "未知号码",
+        "time": "2026-06-28 00:17",
+        "kind": "call",
+        "body": "00:17｜未接来电｜响铃约6秒后结束。",
+        "meta": {
+          "number": "***-***-0617",
+          "status": "未接"
+        }
+      },
+      {
+        "id": "call-3",
+        "title": "已接来电：钟意",
+        "sender": "钟意",
+        "time": "2026-06-27 23:46",
+        "kind": "call",
+        "body": "23:46｜已接听｜通话 08:16。内容：确认到家后互相报平安。",
+        "meta": {
+          "number": "好友",
+          "status": "已接"
+        }
+      },
+      {
+        "id": "call-4",
+        "title": "已接来电：林可",
+        "sender": "林可",
+        "time": "2026-06-27 16:12",
+        "kind": "call",
+        "body": "16:12｜已接听｜通话 02:13。内容：提醒第二天妆发与耳饰安排。",
+        "meta": {
+          "number": "工作联络",
+          "status": "已接"
+        }
+      },
+      {
+        "id": "call-hidden-unknown",
+        "title": "通话详情｜未显示号码",
+        "sender": "未知号码",
+        "time": "2026-06-28 00:17",
+        "kind": "call",
+        "hidden": true,
+        "body": "【隐藏记录】呼入持续6秒，未接听。号码没有写入通讯录，通话详情只保留了末四位0617。",
+        "meta": {
+          "number": "未显示",
+          "status": "未接"
+        }
       }
     ],
     "taobao": [
@@ -2088,6 +2548,96 @@
           "归期：先回闺蜜，丈夫可以解释。"
         ]
       }
+    ],
+    "safari": [
+      {
+        "id": "safari-bookmark-fly",
+        "title": "Fly工作室｜公开动态",
+        "sender": "浏览器书签",
+        "time": "2026-06-27 20:10",
+        "kind": "text",
+        "favorite": true,
+        "folder": "追星收藏",
+        "body": "Fly工作室公开动态入口。此处为虚构网页条目，不连接真实账号。",
+        "meta": {
+          "url": "https://weibo.example/fly-studio"
+        }
+      },
+      {
+        "id": "safari-bookmark-wolf",
+        "title": "狼团官方｜舞台预告",
+        "sender": "浏览器书签",
+        "time": "2026-06-27 20:12",
+        "kind": "text",
+        "favorite": true,
+        "folder": "追星收藏",
+        "body": "狼团公开舞台预告与已发布物料索引。",
+        "meta": {
+          "url": "https://official.example/wolf-stage"
+        }
+      },
+      {
+        "id": "safari-bookmark-guiqi",
+        "title": "归期超话｜签到与存档",
+        "sender": "浏览器书签",
+        "time": "2026-06-26 22:30",
+        "kind": "text",
+        "favorite": true,
+        "folder": "常用",
+        "body": "归期的超话收藏入口，方便整理公开物料与签到记录。",
+        "meta": {
+          "url": "https://weibo.example/super-topic/guiqi"
+        }
+      },
+      {
+        "id": "safari-history-interview",
+        "title": "搜索记录｜Fly完整采访",
+        "sender": "浏览历史",
+        "time": "2026-06-28 00:41",
+        "kind": "text",
+        "folder": "历史记录",
+        "body": "搜索词：Fly 6月27日公开活动完整采访。结果中找到官方完整视频。",
+        "meta": {
+          "url": "https://video.example/search/fly-interview"
+        }
+      },
+      {
+        "id": "safari-history-wolf",
+        "title": "访问记录｜狼团合作舞台官宣",
+        "sender": "浏览历史",
+        "time": "2026-06-28 00:34",
+        "kind": "text",
+        "folder": "历史记录",
+        "body": "查看狼团与红团合作舞台的公开官宣，没有打开任何私人行程页面。",
+        "meta": {
+          "url": "https://official.example/wolf-red-stage"
+        }
+      },
+      {
+        "id": "safari-history-game",
+        "title": "访问记录｜好友分享的战绩页面",
+        "sender": "浏览历史",
+        "time": "2026-06-27 23:28",
+        "kind": "text",
+        "folder": "历史记录",
+        "body": "钟意分享的王者荣耀娱乐局结算页。备注：只是一局朋友开黑。",
+        "meta": {
+          "url": "https://game.example/share/friends-match"
+        }
+      },
+      {
+        "id": "safari-history-late-night",
+        "title": "凌晨访问记录｜活动通告缓存页",
+        "sender": "浏览历史",
+        "time": "2026-06-28 00:17",
+        "kind": "text",
+        "folder": "历史记录",
+        "hidden": true,
+        "body": "缓存页只保留“公开采访结束后再确认”一行文字，访问来源未记录登录账号。时间与相册里未归档截图相同。",
+        "meta": {
+          "url": "https://archive.example/cache/notice-0017"
+        }
+      }
     ]
   },
   "variables": {
@@ -2112,6 +2662,16 @@
           "type": "notification",
           "key": "weibo",
           "value": "微博热搜更新：#Fly与狼团旧事#"
+        },
+        {
+          "type": "notification",
+          "key": "phone",
+          "value": "电话：有一条来自未知号码的未接来电"
+        },
+        {
+          "type": "notification",
+          "key": "safari",
+          "value": "浏览器：昨夜留下了新的访问记录"
         }
       ],
       "next": [
@@ -2133,7 +2693,10 @@
         "choice-family",
         "choice-hotsearch",
         "choice-bestie",
-        "choice-private-chat"
+        "choice-private-chat",
+        "choice-gallery",
+        "choice-browser",
+        "choice-calllog"
       ],
       "once": true,
       "x": 300,
@@ -2420,6 +2983,133 @@
       "once": true,
       "x": 760,
       "y": 660
+    },
+    {
+      "id": "choice-gallery",
+      "label": "翻看相册里的未归档截图",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-gallery",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "photo-hidden-metadata",
+          "value": true
+        },
+        {
+          "type": "variable",
+          "key": "gallery_timestamp_found",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "photo-time-0017",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "photos",
+          "value": "相册：发现一张未归档截图"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "相册线索已发现"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 400
+    },
+    {
+      "id": "choice-browser",
+      "label": "检查浏览器的凌晨访问记录",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-browser",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "safari-history-late-night",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-late-night",
+          "value": true
+        },
+        {
+          "type": "variable",
+          "key": "browser_timestamp_found",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "browser-time-0017",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "safari",
+          "value": "浏览器：发现一条凌晨缓存访问记录"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "浏览器记录已发现"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 500
+    },
+    {
+      "id": "choice-calllog",
+      "label": "查看电话里的未知号码",
+      "type": "action",
+      "event": "choose",
+      "target": "choice-calllog",
+      "conditions": [],
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "call-hidden-unknown",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "note-call-detail",
+          "value": true
+        },
+        {
+          "type": "variable",
+          "key": "unknown_call_found",
+          "value": true
+        },
+        {
+          "type": "clue",
+          "key": "unknown-call-0617",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "phone",
+          "value": "电话：未知号码的通话详情已解锁"
+        },
+        {
+          "type": "ending",
+          "key": "",
+          "value": "通话记录线索已发现"
+        }
+      ],
+      "next": [],
+      "once": true,
+      "x": 520,
+      "y": 600
     }
   ],
   "tests": [
@@ -2549,6 +3239,83 @@
       "expectUnlocked": [
         "note-online-f",
         "note-f-trace"
+      ]
+    },
+    {
+      "name": "翻看相册并发现未归档截图",
+      "steps": [
+        {
+          "event": "start",
+          "target": ""
+        },
+        {
+          "choose": "choice-gallery",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "photo-hidden-metadata"
+        }
+      ],
+      "ending": "相册线索已发现",
+      "expectUnlocked": [
+        "photo-hidden-metadata"
+      ]
+    },
+    {
+      "name": "检查浏览器并用手机密码查看时间线",
+      "steps": [
+        {
+          "event": "start",
+          "target": ""
+        },
+        {
+          "choose": "choice-browser",
+          "target": ""
+        },
+        {
+          "password": "1226",
+          "target": "note-late-night"
+        },
+        {
+          "event": "read",
+          "target": "safari-history-late-night"
+        },
+        {
+          "event": "read",
+          "target": "note-late-night"
+        }
+      ],
+      "ending": "浏览器记录已发现",
+      "expectUnlocked": [
+        "safari-history-late-night",
+        "note-late-night"
+      ]
+    },
+    {
+      "name": "查看未知号码的通话记录",
+      "steps": [
+        {
+          "event": "start",
+          "target": ""
+        },
+        {
+          "choose": "choice-calllog",
+          "target": ""
+        },
+        {
+          "event": "read",
+          "target": "call-hidden-unknown"
+        },
+        {
+          "event": "read",
+          "target": "note-call-detail"
+        }
+      ],
+      "ending": "通话记录线索已发现",
+      "expectUnlocked": [
+        "call-hidden-unknown",
+        "note-call-detail"
       ]
     }
   ]
